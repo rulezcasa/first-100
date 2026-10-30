@@ -22,6 +22,7 @@ Take a picture of a business card at a networking event and feed it straight int
 
 ## Demos
 **Pitch** : https://drive.google.com/file/d/1EyZ5pciGv1oLJvuKdAPuPfYEBVosEEJO/view?usp=sharing
+<br>
 **Demo** : https://drive.google.com/file/d/1dxhA-f5OmfgOp_wh-j0mphnv5Rdso0qw/view
 
 ## Problem statement
