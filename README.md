@@ -158,5 +158,3 @@ app/
 webapp/
   src/pages/            Setup, Who, Leads, Approve, Pipeline, Dashboard
 ```
-
-See [context.md](context.md) for the product spec and [PLAN.md](PLAN.md) for the build plan.
