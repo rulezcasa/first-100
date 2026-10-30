@@ -1,5 +1,5 @@
 // Design-time data for pages not yet wired to the backend (setup is live; see api.ts).
-import type { Draft, Evidence, GraphLink, GraphNode, Lead, Profile, Proposal, RateRow } from './types'
+import type { Draft, Evidence, GraphLink, GraphNode, Lead, Profile, Proposal } from './types'
 
 export const profileV1: Profile = {
   version: 1,
@@ -189,20 +189,6 @@ export const drafts: Draft[] = [
     "Hi Tom,\n\nCongrats on taking over warehouse ops at Ridgeline. New leaders often look hard at how counts are done.\n\nShelfwise keeps inventory live across sites. Worth a look while you're getting set up?\n\nPriya", 'approved'),
 ]
 
-
-export const funnel = { found: 37, approved: 30, sent: 30, replied: 9, meeting: 3 }
-
-export const byIndustry: RateRow[] = [
-  { key: 'Logistics', sent: 11, replied: 5, meetings: 2, cost: 0.11 },
-  { key: '3PL', sent: 6, replied: 2, meetings: 1, cost: 0.12 },
-  { key: 'E-commerce', sent: 5, replied: 1, meetings: 0, cost: 0.13 },
-  { key: 'Retail', sent: 8, replied: 1, meetings: 0, cost: 0.14 },
-]
-
-export const byAngle: RateRow[] = [
-  { key: 'signal', sent: 17, replied: 7, meetings: 3, cost: 0.12 },
-  { key: 'pain', sent: 13, replied: 2, meetings: 0, cost: 0.13 },
-]
 
 export const spend = { total: 4.82, leads: 37 }
 

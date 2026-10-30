@@ -26,7 +26,6 @@ async def cached(namespace: str, request: dict[str, Any], fetch: Callable[[], Aw
     if config.DEMO_MODE == "cache":
         raise CacheMiss(f"{namespace} request not in cache (DEMO_MODE=cache)")
     result = await fetch()
-    # TODO: usage.track() here, for cost per lead (PLAN.md §7 Flexprice)
     config.CACHE_DIR.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(result, indent=2, default=str))
     return result

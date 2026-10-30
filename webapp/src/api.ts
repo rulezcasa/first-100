@@ -1,5 +1,5 @@
-// Calls to the FastAPI backend. Setup, Who should buy this, leads, drafts and the activity panel are wired up; other pages still read mock.ts.
-import type { Draft, Lead, Profile, RoomEvent, SavedSetup, SetupDraft, SetupTurn } from './types'
+// Calls to the FastAPI backend. Setup, Who should buy this, leads, drafts, the dashboard and the activity panel are wired up; other pages still read mock.ts.
+import type { Dashboard, DealStatus, Draft, Lead, Profile, RoomEvent, SavedSetup, SetupDraft, SetupTurn } from './types'
 
 export const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:8000'
 
@@ -44,5 +44,10 @@ export const api = {
   // The Band room: recent messages, posting as the founder, and new messages as server-sent events.
   getActivity: () => call<RoomEvent[]>('GET', '/activity'),
   sendToTeam: (text: string) => call<{ sent: boolean }>('POST', '/activity', { text }),
+  // Cost, clients and revenue; deals are the clients the founder records by hand.
+  getDashboard: () => call<Dashboard>('GET', '/dashboard'),
+  saveDeal: (leadId: number, deal: { status: DealStatus; value_usd: number; note?: string | null }) =>
+    call<{ saved: boolean }>('PUT', `/dashboard/deals/${leadId}`, deal),
+  deleteDeal: (leadId: number) => call<{ deleted: boolean }>('DELETE', `/dashboard/deals/${leadId}`),
   activityStreamUrl: `${API_URL}/activity/stream`,
 }

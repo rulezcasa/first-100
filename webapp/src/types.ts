@@ -129,14 +129,6 @@ export interface RoomEvent {
   created_at: string | null
 }
 
-export interface RateRow {
-  key: string
-  sent: number
-  replied: number
-  meetings: number
-  cost: number
-}
-
 export interface Proposal {
   title: string
   detail: string
@@ -155,3 +147,35 @@ export interface GraphLink {
   rel: string
   warm?: boolean
 }
+
+// GET /dashboard
+export type DealStatus = 'potential' | 'confirmed' | 'lost'
+export type Deal = {
+  lead_id: number
+  company: string
+  person_name: string | null
+  industry: string | null
+  status: DealStatus
+  value_usd: number
+  note: string | null
+  updated_at: string
+}
+export type Dashboard = {
+  source: 'flexprice' | 'local' // where cost and revenue were read from
+  sync: { connected: boolean; pending_events: number; sent_events: number; error: string | null }
+  cost: {
+    total_usd: number
+    calls: number
+    tokens: number
+    per_lead_usd: number | null
+    per_reply_usd: number | null
+    per_client_usd: number | null
+    by_agent: { agent: string; calls: number; tokens: number; cost_usd: number }[]
+    daily: { day: string; cost_usd: number }[]
+  }
+  clients: { leads: number; contacted: number; replied: number; meetings: number; potential: number; confirmed: number; lost: number }
+  revenue: { confirmed_usd: number; pipeline_usd: number; avg_deal_usd: number | null; net_usd: number; roi: number | null }
+  reply_rates: { by_industry: ReplyRate[]; by_angle: ReplyRate[] }
+  deals: Deal[]
+}
+export type ReplyRate = { key: string; sent: number; replied: number }

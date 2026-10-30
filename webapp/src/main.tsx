@@ -4,7 +4,7 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import { Shell } from './components/layout/Shell'
 import './index.css'
 import { Approve } from './pages/Approve'
-import { Insights } from './pages/Insights'
+import { Dashboard } from './pages/Dashboard'
 import { Leads } from './pages/Leads'
 import { Pipeline } from './pages/Pipeline'
 import { Setup } from './pages/Setup'
@@ -22,7 +22,7 @@ createRoot(document.getElementById('root')!).render(
             <Route path="/leads" element={<Leads />} />
             <Route path="/approve" element={<Approve />} />
             <Route path="/pipeline" element={<Pipeline />} />
-            <Route path="/insights" element={<Insights />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="*" element={<Navigate to="/setup" replace />} />
           </Route>
         </Routes>

@@ -25,7 +25,7 @@ export function DraftCard({ draft }: { draft: Draft }) {
         <div className="flex items-center gap-2">
           <span className="font-mono text-xs font-semibold">Version {draft.variant}</span>
           <span
-            title={copy.insights.angleHelp[draft.angle]}
+            title={copy.angleHelp[draft.angle]}
             className={cx('rounded px-1.5 py-0.5 text-[10px] font-medium', draft.angle === 'signal' ? 'bg-info-soft text-info' : 'bg-warn-soft text-warn')}
           >
             {draft.angle === 'signal' ? 'Opens with news' : 'Opens with a problem'}

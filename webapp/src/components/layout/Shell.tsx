@@ -1,4 +1,4 @@
-import { BarChart3, CheckSquare, Columns3, PanelRightOpen, Sparkles, Target, Users } from 'lucide-react'
+import { CircleDollarSign, CheckSquare, Columns3, PanelRightOpen, Sparkles, Target, Users } from 'lucide-react'
 import { useState } from 'react'
 import { Link, NavLink, Outlet } from 'react-router-dom'
 import { copy } from '../../copy'
@@ -13,7 +13,7 @@ const nav = [
   { to: '/leads', label: copy.nav.leads, icon: Users },
   { to: '/approve', label: copy.nav.approve, icon: CheckSquare },
   { to: '/pipeline', label: copy.nav.pipeline, icon: Columns3 },
-  { to: '/insights', label: copy.nav.insights, icon: BarChart3 },
+  { to: '/dashboard', label: copy.nav.dashboard, icon: CircleDollarSign },
 ]
 
 export function Shell() {

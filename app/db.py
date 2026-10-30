@@ -28,7 +28,7 @@ def connect() -> Iterator[sqlite3.Connection]:
 
 # Columns added after the first databases were made; CREATE TABLE IF NOT EXISTS won't add them.
 _ADDED_COLUMNS = [("leads", "warm_path", "TEXT"), ("leads", "research_json", "TEXT"), ("evidence", "published_at", "TEXT"),
-                  ("drafts", "followups_json", "TEXT")]
+                  ("drafts", "followups_json", "TEXT"), ("deals", "synced_at", "TEXT")]
 
 
 def init() -> None:
