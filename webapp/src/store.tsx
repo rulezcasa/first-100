@@ -1,4 +1,4 @@
-// App state. Leads come from the backend; the rest is local and in-memory so the design is clickable.
+// App state. Leads and drafts come from the backend; the rest is local and in-memory so the design is clickable.
 // Each local action is where an api.ts call goes later.
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react'
 import { api } from './api'
@@ -32,20 +32,23 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [profiles, setProfiles] = useState<Profile[]>([mock.profileV1])
   const [leads, setLeads] = useState<Lead[]>([])
   const [researching, setResearching] = useState<number[]>([])
-  // Empty until Writer saves real drafts: mock drafts point at mock lead ids, which now belong to real leads.
   const [drafts, setDrafts] = useState<Draft[]>([])
   const [proposal, setProposal] = useState<Proposal | null>(mock.proposal)
 
   const profile = profiles[profiles.length - 1]
 
-  // Load leads, then reload whenever an agent's tool finishes in the room (find_companies saves new leads).
+  // Leads and drafts as the backend has them. Approving or sending a draft also moves its lead.
+  const load = () => {
+    api.getLeads().then((ls) => {
+      setLeads(ls)
+      // A lead with a tier has been researched, so it's no longer waiting.
+      setResearching((ids) => ids.filter((id) => !ls.find((l) => l.id === id)?.tier))
+    }, (e) => console.error(e))
+    api.getDrafts().then(setDrafts, (e) => console.error(e))
+  }
+
+  // Load, then reload whenever an agent's tool finishes in the room (find_companies, research_lead, draft_outreach…).
   useEffect(() => {
-    const load = () =>
-      api.getLeads().then((ls) => {
-        setLeads(ls)
-        // A lead with a tier has been researched, so it's no longer waiting.
-        setResearching((ids) => ids.filter((id) => !ls.find((l) => l.id === id)?.tier))
-      }, (e) => console.error(e))
     load()
     const stream = new EventSource(api.activityStreamUrl)
     stream.onmessage = (m) => {
@@ -80,23 +83,17 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         setResearching((ids) => ids.filter((x) => x !== id))
       })
     },
+    // The backend retires the other email version on approve and moves the lead along.
     setDraftStatus: (id, status) => {
-      const d = drafts.find((x) => x.id === id)
-      setDrafts((ds) =>
-        ds.map((x) => {
-          if (x.id === id) return { ...x, status }
-          // approving one email variant retires the other
-          if (status === 'approved' && d && x.lead_id === d.lead_id && x.channel === 'email' && x.status === 'pending') return { ...x, status: 'rejected' }
-          return x
-        }),
-      )
-      if (status === 'approved' && d) setLeads((ls) => ls.map((l) => (l.id === d.lead_id && l.stage === 'found' ? { ...l, stage: 'approved', source: 'ai' } : l)))
+      setDrafts((ds) => ds.map((x) => (x.id === id ? { ...x, status } : x))) // show it straight away
+      api.updateDraft(id, { status }).then(load, (e) => console.error(e))
     },
-    editDraft: (id, patch) => setDrafts((ds) => ds.map((x) => (x.id === id ? { ...x, ...patch } : x))),
+    editDraft: (id, patch) => {
+      setDrafts((ds) => ds.map((x) => (x.id === id ? { ...x, ...patch } : x)))
+      api.updateDraft(id, patch).catch((e) => console.error(e))
+    },
     sendApproved: () => {
-      const ids = new Set(drafts.filter((d) => d.status === 'approved' && d.channel === 'email').map((d) => d.lead_id))
-      setDrafts((ds) => ds.map((d) => (d.status === 'approved' && d.channel === 'email' ? { ...d, status: 'sent' } : d)))
-      setLeads((ls) => ls.map((l) => (ids.has(l.id) ? { ...l, stage: 'sent' } : l)))
+      api.sendApproved().then(load, (e) => console.error(e))
     },
     simulateReplies: () => {
       setLeads((ls) => ls.map((l) => (l.stage === 'sent' && l.industry !== 'Retail' ? { ...l, stage: 'replied' } : l)))

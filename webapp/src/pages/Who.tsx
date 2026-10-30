@@ -46,8 +46,6 @@ export function Who() {
     })
   }, [])
 
-  // Leads are asked for in the chat ("@Scout find leads"); this just opens the Leads tab.
-  const go = () => nav('/leads')
 
   const ready = profile && profile.segments.length > 0
   const header = (
@@ -58,9 +56,6 @@ export function Who() {
         <>
           <Button variant="ghost" onClick={() => run(() => api.generateWho(true))} disabled={!profile?.product || thinking}>
             <RotateCcw size={14} /> {copy.who.redo}
-          </Button>
-          <Button variant="primary" onClick={go} disabled={!ready || thinking}>
-            {copy.who.seeLeads} <ArrowRight size={15} />
           </Button>
         </>
       }

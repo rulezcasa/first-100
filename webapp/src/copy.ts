@@ -61,7 +61,6 @@ export const copy = {
     subtitle: 'The groups most likely to buy, based on what you told us. Confidence shows how sure we are.',
     tryAlso: 'Try also',
     competitors: 'Who else they might be looking at',
-    seeLeads: 'See leads',
     bestBet: 'Best bet',
     tryAlsoHint: "Groups you didn't mention that look similar. Add one to search it too.",
     competitorsLater: 'Scout looks these up on the web once search is connected, so every name is a real one.',

@@ -1,5 +1,5 @@
-// Calls to the FastAPI backend. Setup, Who should buy this, leads and the activity panel are wired up; other pages still read mock.ts.
-import type { Lead, Profile, RoomEvent, SavedSetup, SetupDraft, SetupTurn } from './types'
+// Calls to the FastAPI backend. Setup, Who should buy this, leads, drafts and the activity panel are wired up; other pages still read mock.ts.
+import type { Draft, Lead, Profile, RoomEvent, SavedSetup, SetupDraft, SetupTurn } from './types'
 
 export const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:8000'
 
@@ -37,6 +37,10 @@ export const api = {
   addExpansion: (name: string) => call<Profile>('POST', '/who/add', { name }),
   // Every lead Scout has saved, newest first.
   getLeads: () => call<Lead[]>('GET', '/leads'),
+  // Writer's drafts and the founder's decisions on them. Sending is simulated.
+  getDrafts: () => call<Draft[]>('GET', '/drafts'),
+  updateDraft: (id: number, patch: Partial<Pick<Draft, 'status' | 'subject' | 'body'>>) => call<Draft>('PATCH', `/drafts/${id}`, patch),
+  sendApproved: () => call<{ sent_to: number[] }>('POST', '/drafts/send'),
   // The Band room: recent messages, posting as the founder, and new messages as server-sent events.
   getActivity: () => call<RoomEvent[]>('GET', '/activity'),
   sendToTeam: (text: string) => call<{ sent: boolean }>('POST', '/activity', { text }),
