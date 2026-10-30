@@ -27,7 +27,8 @@ def connect() -> Iterator[sqlite3.Connection]:
 
 
 # Columns added after the first databases were made; CREATE TABLE IF NOT EXISTS won't add them.
-_ADDED_COLUMNS = [("leads", "warm_path", "TEXT"), ("leads", "research_json", "TEXT"), ("evidence", "published_at", "TEXT")]
+_ADDED_COLUMNS = [("leads", "warm_path", "TEXT"), ("leads", "research_json", "TEXT"), ("evidence", "published_at", "TEXT"),
+                  ("drafts", "followups_json", "TEXT")]
 
 
 def init() -> None:
@@ -152,6 +153,66 @@ def update_lead(lead_id: int, **fields) -> None:
 def set_lead_stage(lead_id: int, stage: str) -> None:
     with connect() as c:
         c.execute("UPDATE leads SET stage = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?", (stage, lead_id))
+
+
+# --- drafts ---------------------------------------------------------------
+
+def list_drafts(lead_id: int | None = None) -> list[dict]:
+    with connect() as c:
+        rows = c.execute(
+            "SELECT * FROM drafts" + (" WHERE lead_id = ?" if lead_id else "") + " ORDER BY id", (lead_id,) if lead_id else (),
+        ).fetchall()
+    return [dict(r) for r in rows]
+
+
+def get_draft(draft_id: int) -> dict | None:
+    with connect() as c:
+        row = c.execute("SELECT * FROM drafts WHERE id = ?", (draft_id,)).fetchone()
+    return dict(row) if row else None
+
+
+def replace_drafts(lead_id: int, drafts: list[dict]) -> list[int]:
+    """A new set of drafts for a lead: anything not yet sent is replaced."""
+    with connect() as c:
+        c.execute("DELETE FROM drafts WHERE lead_id = ? AND status != 'sent'", (lead_id,))
+        return [
+            c.execute(
+                "INSERT INTO drafts (lead_id, channel, variant, angle, subject, body, followups_json) "
+                "VALUES (:lead_id, :channel, :variant, :angle, :subject, :body, :followups_json)",
+                {"variant": None, "angle": None, "subject": None, "followups_json": None, **d, "lead_id": lead_id},
+            ).lastrowid
+            for d in drafts
+        ]
+
+
+def edit_draft(draft_id: int, subject: str | None, body: str | None) -> None:
+    with connect() as c:
+        c.execute("UPDATE drafts SET subject = COALESCE(?, subject), body = COALESCE(?, body) WHERE id = ?",
+                  (subject, body, draft_id))
+
+
+def set_draft_status(draft_id: int, status: str) -> None:
+    """Approving one email version retires the lead's other pending one and moves the lead to Approved."""
+    with connect() as c:
+        d = c.execute("SELECT * FROM drafts WHERE id = ?", (draft_id,)).fetchone()
+        if d is None:
+            return
+        c.execute("UPDATE drafts SET status = ? WHERE id = ?", (status, draft_id))
+        if status == "approved" and d["channel"] == "email":
+            c.execute("UPDATE drafts SET status = 'rejected' WHERE lead_id = ? AND channel = 'email' AND id != ? "
+                      "AND status = 'pending'", (d["lead_id"], draft_id))
+            c.execute("UPDATE leads SET stage = 'approved', updated_at = CURRENT_TIMESTAMP "
+                      "WHERE id = ? AND stage = 'found'", (d["lead_id"],))
+        if status == "sent" and d["channel"] == "email":
+            c.execute("UPDATE leads SET stage = 'sent', updated_at = CURRENT_TIMESTAMP WHERE id = ?", (d["lead_id"],))
+
+
+def send_approved() -> list[int]:
+    """'Send' every approved email (simulated). Returns the lead ids sent to."""
+    ids = [d["id"] for d in list_drafts() if d["status"] == "approved" and d["channel"] == "email"]
+    for draft_id in ids:
+        set_draft_status(draft_id, "sent")
+    return [get_draft(i)["lead_id"] for i in ids]
 
 
 # --- founder --------------------------------------------------------------

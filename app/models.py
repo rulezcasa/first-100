@@ -105,3 +105,28 @@ class NetworkFindings(BaseModel):
     past_companies: list[NamedFact] = Field(description="Companies the person worked at before")
     schools: list[NamedFact] = Field(description="Schools or universities the person studied at")
     investors: list[NamedFact] = Field(description="Investors or funds that backed the company")
+
+
+class StoryLine(BaseModel):
+    text: str = Field(description="One sentence of the story")
+    refs: list[int] = Field(description="Numbers of the facts this sentence is based on")
+
+
+class Story(BaseModel):
+    """Writer's why-now story: every sentence cites the facts it rests on."""
+
+    sentences: list[StoryLine] = Field(description="2 to 4 sentences")
+
+
+class EmailDraft(BaseModel):
+    subject: str = Field(description="Short, lower-key subject line, under 8 words")
+    body: str = Field(description="The email: greeting, under 90 words, signed with the founder's first name")
+
+
+class Outreach(BaseModel):
+    """Writer's drafts for one lead, in the founder's voice."""
+
+    signal_email: EmailDraft = Field(description="Opens with the company's news")
+    pain_email: EmailDraft = Field(description="Opens with a problem the product fixes")
+    followups: list[str] = Field(description="2 short nudges to send if there's no reply")
+    linkedin_note: str = Field(description="A connection note under 300 characters")

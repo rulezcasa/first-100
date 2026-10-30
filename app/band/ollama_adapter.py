@@ -124,9 +124,12 @@ class OllamaAdapter(SimpleAdapter[Messages]):
         additional_tools: list[CustomToolDef] | None = None,
         max_history_messages: int = 40,
         exclude_tools: list[str] | None = None,
+        may_not_mention: dict[str, str] | None = None,
     ) -> None:
         super().__init__(history_converter=OllamaHistoryConverter(), exclude_tools=exclude_tools or [])
         self.custom_section = custom_section
+        # Teammate name (lowercase) -> why not, sent back to the model so it hands off to the right one instead.
+        self._may_not_mention = may_not_mention or {}
         self.max_history_messages = max_history_messages
         self._custom_tools = additional_tools or []
         self._history: dict[str, Messages] = {}
@@ -256,12 +259,17 @@ class OllamaAdapter(SimpleAdapter[Messages]):
         emit = Emit.TOOL_CALLS in self.features.emit
         if emit:
             await self._event(tools, "tool_call", {ToolEventKey.NAME: name, ToolEventKey.ARGS: args, ToolEventKey.TOOL_CALL_ID: call_id})
+        blocked = [self._label(m) for m in args.get("mentions") or [] if self._label(m) in self._may_not_mention] \
+            if name == "band_send_message" and isinstance(args.get("mentions"), list) else []
         try:
-            if custom := find_custom_tool(self._custom_tools, name):
+            if blocked:  # not sent: the model reads why and tries again
+                output, is_error = "Not sent. " + " ".join(self._may_not_mention[b] for b in blocked), True
+            elif custom := find_custom_tool(self._custom_tools, name):
                 result = await execute_custom_tool(custom, args, turn=tools.turn)
+                output, is_error = result if isinstance(result, str) else json.dumps(result, default=str), False
             else:
                 result = await tools.execute_tool_call(name, args)
-            output, is_error = result if isinstance(result, str) else json.dumps(result, default=str), False
+                output, is_error = result if isinstance(result, str) else json.dumps(result, default=str), False
         except ValidationError as e:
             output, is_error = f"Invalid arguments for {name}: {format_validation_error(e)}", True
         except Exception as e:
@@ -274,10 +282,15 @@ class OllamaAdapter(SimpleAdapter[Messages]):
             })
         return {"role": "tool", "tool_name": name, "content": output}
 
-    def _is_self(self, mention: Any) -> bool:
+    @staticmethod
+    def _label(mention: Any) -> str:
+        """'@Writer', {'handle': 'harish/writer'} or {'name': 'Writer'} -> 'writer'."""
         label = (mention.get("handle") or mention.get("name") or "") if isinstance(mention, dict) else str(mention)
-        label = label.lstrip("@").lower()
-        return bool(label) and (label == self.agent_name.lower() or label.endswith(f"/{self.agent_name.lower()}"))
+        return label.lstrip("@").lower().rsplit("/", 1)[-1]
+
+    def _is_self(self, mention: Any) -> bool:
+        label = self._label(mention)
+        return bool(label) and label == self.agent_name.lower()
 
     @staticmethod
     async def _event(tools: AgentToolsProtocol, kind: str, payload: dict[str, Any]) -> None:

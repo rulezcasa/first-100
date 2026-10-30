@@ -12,7 +12,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app import config, db
-from app.api import activity, leads, routes, who
+from app.api import activity, drafts, leads, routes, who
 from app.band import bridge, room
 
 log = logging.getLogger(__name__)
@@ -56,6 +56,7 @@ app.include_router(routes.router)
 app.include_router(who.router)
 app.include_router(activity.router)
 app.include_router(leads.router)
+app.include_router(drafts.router)
 
 
 @app.get("/health")

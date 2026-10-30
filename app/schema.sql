@@ -60,6 +60,7 @@ CREATE TABLE IF NOT EXISTS drafts (
     angle   TEXT CHECK (angle IN ('signal', 'pain')),
     subject TEXT,
     body    TEXT NOT NULL,
+    followups_json TEXT,                    -- email only: nudges if there's no reply
     status  TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected', 'sent'))
 );
 

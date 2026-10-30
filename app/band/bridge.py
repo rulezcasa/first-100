@@ -38,6 +38,7 @@ def build_agent(name: str, spec: AgentSpec) -> Agent:
         additional_tools=spec.tools,
         max_history_messages=40,  # recent room context only, so turns stay quick on a local model
         exclude_tools=EXCLUDED_BAND_TOOLS,
+        may_not_mention=spec.may_not_mention,
     )
     return Agent.from_config(name, adapter=adapter, config_path=CONFIG_PATH)
 
