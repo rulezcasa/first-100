@@ -20,6 +20,10 @@ Take a picture of a business card at a networking event and feed it straight int
 
 ---
 
+## Demos
+**Pitch** : https://drive.google.com/file/d/1EyZ5pciGv1oLJvuKdAPuPfYEBVosEEJO/view?usp=sharing
+**Demo** : https://drive.google.com/file/d/1dxhA-f5OmfgOp_wh-j0mphnv5Rdso0qw/view
+
 ## Problem statement
 
 Early-stage founders have to sell before they can afford a sales team, and most of them have never done it. The usual tools don't fit:
