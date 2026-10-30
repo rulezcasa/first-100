@@ -1,0 +1,311 @@
+{
+  "domain": "alliesofskin.com",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": false,
+  "pattern": "{first}",
+  "organization": "Allies of Skin",
+  "linked_domains": [],
+  "emails": [
+    {
+      "value": "lava@alliesofskin.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 95,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20lava%20fataka%20alliesofskin",
+          "extracted_on": "2026-10-29",
+          "last_seen_on": "2026-10-29",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Lava",
+      "last_name": "Fataka",
+      "position": "Head of Customer Experience",
+      "position_raw": "Head of Customer Experience",
+      "seniority": "executive",
+      "department": "support",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/lavafataka",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-29",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "cathleen@alliesofskin.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 95,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20cathleen%20bui%20alliesofskin",
+          "extracted_on": "2026-10-24",
+          "last_seen_on": "2026-10-24",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Cathleen",
+      "last_name": "Bui",
+      "position": "Procurement Manager",
+      "position_raw": "Procurement Manager",
+      "seniority": "senior",
+      "department": "procurement",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/cathleenbui",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-06",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "valentina@alliesofskin.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 95,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20valentina%20wetzlmair%20alliesofskin",
+          "extracted_on": "2026-10-20",
+          "last_seen_on": "2026-10-20",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Valentina",
+      "last_name": "Wetzlmair",
+      "position": "Director of Global Sales and Partnerships",
+      "position_raw": "Director of Global Sales and Partnerships",
+      "seniority": "executive",
+      "department": "sales",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/valentina-wetzlmair-607a0486",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-20",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "anabelle@alliesofskin.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 95,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20anabelle%20florio%20alliesofskin",
+          "extracted_on": "2026-10-19",
+          "last_seen_on": "2026-10-19",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Anabelle",
+      "last_name": "Florio",
+      "position": "Global Brand Director",
+      "position_raw": "Global Brand Director",
+      "seniority": "executive",
+      "department": "marketing",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/anabelleflorio",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-15",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "ruiming@alliesofskin.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 95,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20ruiming%20yang%20alliesofskin",
+          "extracted_on": "2026-10-10",
+          "last_seen_on": "2026-10-10",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Ruiming",
+      "last_name": "Yang",
+      "position": "VP of Finance",
+      "position_raw": "VP of Finance",
+      "seniority": "executive",
+      "department": "finance & accounting",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/ruiming-yang-81412866",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-08",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "clairep@alliesofskin.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 95,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20claire%20perez%20alliesofskin",
+          "extracted_on": "2026-09-12",
+          "last_seen_on": "2026-09-12",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Claire",
+      "last_name": "Perez",
+      "position": "SVP of Direct to Consumer",
+      "position_raw": "SVP of Direct to Consumer",
+      "seniority": null,
+      "department": null,
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/claire-perez",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "roger@alliesofskin.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 95,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20roger%20wason%20alliesofskin",
+          "extracted_on": "2026-09-02",
+          "last_seen_on": "2026-08-28",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Roger",
+      "last_name": "Wason",
+      "position": "VP, Digital Business",
+      "position_raw": "Vice President, Digital Business",
+      "seniority": "executive",
+      "department": "sales",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/rogerwason",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-05",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "dustin@alliesofskin.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 95,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20dustin%20wittenberg%20alliesofskin",
+          "extracted_on": "2026-08-27",
+          "last_seen_on": "2026-08-25",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Dustin",
+      "last_name": "Wittenberg",
+      "position": "Director of Retail",
+      "position_raw": "Director of Retail & Education",
+      "seniority": "executive",
+      "department": "sales",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/dustin-wittenberg-aab983119",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-03",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "helen@alliesofskin.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 95,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20helen%20huang%20alliesofskin",
+          "extracted_on": "2026-07-30",
+          "last_seen_on": "2026-09-03",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Helen",
+      "last_name": "Huang",
+      "position": "Vice President, Supply Chain",
+      "position_raw": "Vice President, Supply Chain & Operations",
+      "seniority": "executive",
+      "department": "operations",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/helenmhuang",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-09",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "ina@alliesofskin.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 95,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20ina%20murthi%20alliesofskin",
+          "extracted_on": "2026-01-21",
+          "last_seen_on": "2026-08-25",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Ina",
+      "last_name": "Murthi",
+      "position": "Head of Accounting",
+      "position_raw": "Head of Accounting and Tax",
+      "seniority": "executive",
+      "department": "finance & accounting",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/ina-murthi",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-09",
+        "status": "valid"
+      }
+    }
+  ]
+}

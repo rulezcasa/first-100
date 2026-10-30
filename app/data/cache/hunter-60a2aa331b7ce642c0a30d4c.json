@@ -1,0 +1,10 @@
+{
+  "domain": "rossstores.com",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": false,
+  "pattern": "{f}.{last}",
+  "organization": "Ross Stores",
+  "linked_domains": [],
+  "emails": []
+}

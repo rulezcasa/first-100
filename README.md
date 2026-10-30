@@ -4,6 +4,20 @@
 
 A founder describes their product in plain words. First100 works out who should buy it, finds real companies and decision-makers on the public web, explains *why each lead fits right now* with a cited story, drafts short founder-voice outreach for approval, and learns from replies which customers and message angles work.
 
+## What makes us different
+
+1. **The cited "why now" story.** Every lead comes with a short explanation of why this company, and why now. Every sentence links to a real source, so nothing is made up.
+2. **Learning from replies.** The engine tracks which industries and email styles get replies. It then suggests where to focus next ("Logistics replied 3× more"). The founder accepts or rejects each suggestion, and the next search uses it.
+3. **Built for founders doing their first 100 sales.**
+   - Plain language instead of sales jargon.
+   - Small batches of high-quality leads.
+   - Short emails in the founder's own voice.
+   - Warm paths first: leads connected to the founder's past employers, school, or investors are flagged.
+
+## Planned feature: Snap Lead
+
+Take a picture of a business card at a networking event and feed it straight into the lead workflow. First100 reads the card, finds the company, and runs it through the same research, cited story, and drafting steps as any other lead.
+
 ---
 
 ## Problem statement
@@ -15,11 +29,7 @@ Early-stage founders have to sell before they can afford a sales team, and most 
 - **No feedback loop.** Founders rarely track which customer types and message angles actually get replies, so they keep guessing.
 - **Warm paths go unused.** A founder's own background (past employers, school, investors) is often the best way in, but nobody connects it to prospects.
 
-First100 addresses this with three differentiators:
-
-1. **Cited "why now" stories.** Every lead gets a 2–4 sentence story where every sentence links to a real fetched source. Quotes are checked against the fetched page text, and unsupported claims are dropped.
-2. **A learning loop.** Outcomes (replied / no reply / meeting) are tracked by industry and email angle. First100 proposes one profile update ("Focus on logistics, use signal emails"). The founder accepts it, and the next discovery run uses the new profile.
-3. **Built for first-time sellers.** Plain language everywhere, founder-voice emails under 90 words with no clichés, nothing sent without approval, and a "do this next" action always on screen.
+First100 addresses this with the three differentiators above.
 
 ---
 

@@ -1,0 +1,41 @@
+{
+  "domain": "salonsalonbakersfield.com",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": false,
+  "pattern": "{first}",
+  "organization": "Salon Salon",
+  "linked_domains": [],
+  "emails": [
+    {
+      "value": "tiffany@salonsalonbakersfield.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 99,
+      "sources": [
+        {
+          "domain": "salonsalonbakersfield.com",
+          "uri": "https://salonsalonbakersfield.com",
+          "extracted_on": "2024-03-09",
+          "last_seen_on": "2026-08-18",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Tiffany",
+      "last_name": "Goldsmith",
+      "position": "Business Manager",
+      "position_raw": "Business Manager",
+      "seniority": "senior",
+      "department": "sales",
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "domain": "booksamillion.com",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": true,
+  "pattern": "{last}{f}",
+  "organization": "Books-A-Million",
+  "linked_domains": [],
+  "emails": [
+    {
+      "value": "gaglianok@booksamillion.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 85,
+      "sources": [
+        {
+          "domain": "firebrandtech.com",
+          "uri": "https://firebrandtech.com/resources/episode-67-merchandising-insights-from-books-a-millions-kathy-gagliano",
+          "extracted_on": "2026-10-05",
+          "last_seen_on": "2026-10-05",
+          "still_on_page": true
+        },
+        {
+          "domain": "booksmartspodcast.com",
+          "uri": "https://booksmartspodcast.com/2026/07/20/episode-67-merchandising-insights-from-books-a-millions-kathy-gagliano",
+          "extracted_on": "2026-09-24",
+          "last_seen_on": "2026-09-24",
+          "still_on_page": true
+        },
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20kathy%20gagliano%20booksamillion",
+          "extracted_on": "2025-01-14",
+          "last_seen_on": "2026-08-26",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Kathy",
+      "last_name": "Gagliano",
+      "position": "Executive Vice President of Merchandising",
+      "position_raw": "Executive Vice President, Merchandising",
+      "seniority": "executive",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/kathy-gagliano-74161baa",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-22",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "watersl@booksamillion.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 84,
+      "sources": [
+        {
+          "domain": "toxicgrit.com",
+          "uri": "https://toxicgrit.com/contact",
+          "extracted_on": "2026-03-21",
+          "last_seen_on": "2026-10-25",
+          "still_on_page": true
+        },
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20lisa%20waters%20booksamillion",
+          "extracted_on": "2025-01-14",
+          "last_seen_on": "2026-08-25",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Lisa",
+      "last_name": "Waters",
+      "position": "Director of Sales",
+      "position_raw": "Director Outside Sales and Operations",
+      "seniority": "executive",
+      "department": "sales",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/lisa-koontz-waters",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-25",
+        "status": "accept_all"
+      }
+    },
+    {
+      "value": "baileyj@booksamillion.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 84,
+      "sources": [
+        {
+          "domain": "scop.io",
+          "uri": "https://scop.io/pages/bulk-order-options-the-year-time-stopped",
+          "extracted_on": "2023-08-09",
+          "last_seen_on": "2026-10-29",
+          "still_on_page": true
+        },
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20jeannie%20bailey%20booksamillion",
+          "extracted_on": "2025-01-14",
+          "last_seen_on": "2026-08-04",
+          "still_on_page": true
+        },
+        {
+          "domain": "jongordon.com",
+          "uri": "https://jongordon.com/contact",
+          "extracted_on": "2023-11-02",
+          "last_seen_on": "2024-05-02",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Jeannie",
+      "last_name": "Bailey",
+      "position": "Senior Director Of E-Commerce Sales And Operations",
+      "position_raw": "Senior Director Of E-Commerce Sales And Operations",
+      "seniority": "executive",
+      "department": "sales",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/jeannie-bailey-07859b17",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-23",
+        "status": "accept_all"
+      }
+    },
+    {
+      "value": "kapplers@booksamillion.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 84,
+      "sources": [
+        {
+          "domain": "alabamaretail.org",
+          "uri": "https://alabamaretail.org/news/books-a-million",
+          "extracted_on": "2019-08-07",
+          "last_seen_on": "2026-09-24",
+          "still_on_page": true
+        },
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20scott%20kappler%20booksamillion",
+          "extracted_on": "2025-01-14",
+          "last_seen_on": "2026-08-31",
+          "still_on_page": true
+        },
+        {
+          "domain": "alabamaretail.org",
+          "uri": "https://alabamaretail.org/news/booksamillion",
+          "extracted_on": "2016-03-11",
+          "last_seen_on": "2026-07-25",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Scott",
+      "last_name": "Kappler",
+      "position": "Executive Vice President of Operations",
+      "position_raw": "Executive Vice President Of Operations",
+      "seniority": "executive",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/scott-kappler",
+      "twitter": null,
+      "phone_number": "+1 205 909 1323",
+      "verification": {
+        "date": "2026-10-23",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "mcdanielo@booksamillion.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 83,
+      "sources": [
+        {
+          "domain": "igpbeauty.com",
+          "uri": "https://igpbeauty.com/2nd-charles-announces-new-store-opening-with-exciting-launch-events-in-lafayette-la",
+          "extracted_on": "2026-10-30",
+          "last_seen_on": "2026-10-30",
+          "still_on_page": true
+        },
+        {
+          "domain": "sustainabilityhq.com",
+          "uri": "https://sustainabilityhq.com/2025/05/page/6",
+          "extracted_on": "2025-09-16",
+          "last_seen_on": "2026-09-30",
+          "still_on_page": true
+        },
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20olivia%20mcdaniel%20booksamillion",
+          "extracted_on": "2025-01-14",
+          "last_seen_on": "2026-09-06",
+          "still_on_page": true
+        },
+        {
+          "domain": "celebrityhint.com",
+          "uri": "https://celebrityhint.com/books-a-million-celebrates-associate-creativity-and-announces-winners-of-fourth-annual-round-up-for-writers-contest-customers-help-raise-more-than-200000-for-poets-writers",
+          "extracted_on": "2026-05-20",
+          "last_seen_on": "2026-08-22",
+          "still_on_page": true
+        },
+        {
+          "domain": "emergencycollab.com",
+          "uri": "https://emergencycollab.com/blog/books-a-million-appoints-damian-doggett-as-senior-vice-president-and-chief-accounting-officer-302248134-html",
+          "extracted_on": "2025-07-05",
+          "last_seen_on": "2026-01-09",
+          "still_on_page": false
+        },
+        {
+          "domain": "emergencycollab.com",
+          "uri": "https://emergencycollab.com/blog/books-a-million-and-2nd-charles-spread-holiday-joy-to-childrens-hospital-302330827-html",
+          "extracted_on": "2025-07-05",
+          "last_seen_on": "2026-01-08",
+          "still_on_page": false
+        },
+        {
+          "domain": "emergencycollab.com",
+          "uri": "https://emergencycollab.com/blog/books-a-millions-24th-coffee-for-the-troops-campaign-surpasses-80-000-bags-donated-302468809-html",
+          "extracted_on": "2025-07-05",
+          "last_seen_on": "2026-01-08",
+          "still_on_page": false
+        },
+        {
+          "domain": "emergencycollab.com",
+          "uri": "https://emergencycollab.com/blog/books-a-million-announces-real-estate-leadership-promotions-302459366-html",
+          "extracted_on": "2025-07-05",
+          "last_seen_on": "2026-01-07",
+          "still_on_page": false
+        },
+        {
+          "domain": "emergencycollab.com",
+          "uri": "https://emergencycollab.com/blog/books-a-million-names-catherine-hogewood-as-senior-vice-president-and-general-counsel-302461156-html",
+          "extracted_on": "2025-07-05",
+          "last_seen_on": "2026-01-06",
+          "still_on_page": false
+        },
+        {
+          "domain": "nynewscast.com",
+          "uri": "https://nynewscast.com/books-a-million-launches-its-22nd-coffee-for-the-troops-donation-campaign-105012",
+          "extracted_on": "2024-04-26",
+          "last_seen_on": "2025-07-31",
+          "still_on_page": false
+        },
+        {
+          "domain": "greatbookshop.com",
+          "uri": "https://greatbookshop.com/books-a-million-holds-three-events-with-senator-katie-britt",
+          "extracted_on": "2024-04-16",
+          "last_seen_on": "2025-05-16",
+          "still_on_page": false
+        },
+        {
+          "domain": "greatbookshop.com",
+          "uri": "https://greatbookshop.com/books-a-million-to-host-summer-sizzle-a-booktok-author-event-in-dayton-oh",
+          "extracted_on": "2024-04-16",
+          "last_seen_on": "2025-05-05",
+          "still_on_page": false
+        },
+        {
+          "domain": "greatbookshop.com",
+          "uri": "https://greatbookshop.com/books-a-million-announces-internationally-bestselling-author-christopher-paolini-as-official-ambassador-for-kids-summer-reading-adventure-program",
+          "extracted_on": "2024-04-16",
+          "last_seen_on": "2025-05-04",
+          "still_on_page": false
+        },
+        {
+          "domain": "greatbookshop.com",
+          "uri": "https://greatbookshop.com/books-a-million-bridgeport-holds-grand-opening-celebration-for-its-new-location",
+          "extracted_on": "2024-04-16",
+          "last_seen_on": "2025-04-21",
+          "still_on_page": false
+        },
+        {
+          "domain": "greatbookshop.com",
+          "uri": "https://greatbookshop.com/books-a-million-welcomes-courtney-adair-as-new-general-counsel",
+          "extracted_on": "2024-07-17",
+          "last_seen_on": "2025-04-18",
+          "still_on_page": false
+        },
+        {
+          "domain": "uscitypulse.com",
+          "uri": "https://uscitypulse.com/books-a-million-to-host-summer-sizzle-a-booktok-author-event-in-dayton-oh",
+          "extracted_on": "2023-07-27",
+          "last_seen_on": "2024-04-28",
+          "still_on_page": false
+        },
+        {
+          "domain": "tylergarrett.com",
+          "uri": "https://tylergarrett.com/category/press-article",
+          "extracted_on": "2023-08-03",
+          "last_seen_on": "2023-08-03",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Olivia",
+      "last_name": "McDaniel",
+      "position": "Vice President of Marketing",
+      "position_raw": "Vice President Marketing",
+      "seniority": "executive",
+      "department": "marketing",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/olivia-mcdaniel-543399249",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-22",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "franzr@booksamillion.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 79,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20rick%20franz%20booksamillion",
+          "extracted_on": "2026-09-21",
+          "last_seen_on": "2026-09-21",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Rick",
+      "last_name": "Franz",
+      "position": "Executive Vice President",
+      "position_raw": "Executive Vice President Real Estate",
+      "seniority": "executive",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/rick-franz-aa018b46",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-22",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "mcguiren@booksamillion.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 79,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20nicole%20mcguire%20booksamillion",
+          "extracted_on": "2026-06-26",
+          "last_seen_on": "2026-08-24",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Nicole",
+      "last_name": "McGuire",
+      "position": "General Manager",
+      "position_raw": "General Manager",
+      "seniority": "senior",
+      "department": "management",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/nicole-mcguire-4597a974",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "fergusonj@booksamillion.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 79,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20janet%20ferguson%20booksamillion",
+          "extracted_on": "2026-03-09",
+          "last_seen_on": "2026-09-03",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Janet",
+      "last_name": "Ferguson",
+      "position": "General Manager",
+      "position_raw": "General Manager",
+      "seniority": "senior",
+      "department": "management",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/janet-ferguson-b97277126",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "brashearb@booksamillion.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 79,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20brittney%20brashear%20booksamillion",
+          "extracted_on": "2026-02-03",
+          "last_seen_on": "2026-09-04",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Brittney",
+      "last_name": "Brashear",
+      "position": "General Manager",
+      "position_raw": "Aassistant General Manager",
+      "seniority": "senior",
+      "department": "management",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/brittney-brashear-05704717b",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "sloans@booksamillion.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 79,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20stephanie%20sloan%20booksamillion",
+          "extracted_on": "2025-12-31",
+          "last_seen_on": "2026-08-27",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Stephanie",
+      "last_name": "Sloan",
+      "position": "General Manager",
+      "position_raw": "General Manager",
+      "seniority": "senior",
+      "department": "management",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/stephanie-sloan-94426916a",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-04",
+        "status": "valid"
+      }
+    }
+  ]
+}

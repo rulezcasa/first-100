@@ -1,0 +1,836 @@
+{
+  "domain": "salon.com",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": true,
+  "pattern": "{f}{last}",
+  "organization": "Salon",
+  "linked_domains": [],
+  "emails": [
+    {
+      "value": "kmcclure@salon.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 83,
+      "sources": [
+        {
+          "domain": "freedomwithwriting.com",
+          "uri": "https://freedomwithwriting.com/freedom/uncategorized/20-calls-for-pitches-directly-from-editors-4",
+          "extracted_on": "2025-02-02",
+          "last_seen_on": "2026-10-30",
+          "still_on_page": true
+        },
+        {
+          "domain": "freedomwithwriting.com",
+          "uri": "https://freedomwithwriting.com/freedom/uncategorized/11-calls-for-pitches-directly-from-editors-2",
+          "extracted_on": "2025-02-02",
+          "last_seen_on": "2026-10-29",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/writer/kelly-mcclure",
+          "extracted_on": "2023-02-02",
+          "last_seen_on": "2026-10-29",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/about/submissions",
+          "extracted_on": "2024-10-18",
+          "last_seen_on": "2026-10-27",
+          "still_on_page": true
+        },
+        {
+          "domain": "joannalobo.substack.com",
+          "uri": "https://joannalobo.substack.com/p/chapter-53",
+          "extracted_on": "2025-10-31",
+          "last_seen_on": "2026-08-29",
+          "still_on_page": true
+        },
+        {
+          "domain": "pw.org",
+          "uri": "https://pw.org/review_outlets/salon",
+          "extracted_on": "2026-06-04",
+          "last_seen_on": "2026-06-04",
+          "still_on_page": false
+        },
+        {
+          "domain": "arrowtechworld.com",
+          "uri": "https://arrowtechworld.com/writer/kelly-mcclure",
+          "extracted_on": "2022-12-12",
+          "last_seen_on": "2023-03-11",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Kelly",
+      "last_name": "Mcclure",
+      "position": "CEO",
+      "position_raw": "CEO",
+      "seniority": "executive",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-30",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "ekeane@salon.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 83,
+      "sources": [
+        {
+          "domain": "everyonewhosanyone.com",
+          "uri": "https://everyonewhosanyone.com/pv/pv06.html",
+          "extracted_on": "2022-02-26",
+          "last_seen_on": "2026-10-29",
+          "still_on_page": true
+        },
+        {
+          "domain": "ifwtwa.org",
+          "uri": "https://ifwtwa.org/wp-content/uploads/2021/03/press_pass_2016-01.pdf",
+          "extracted_on": "2023-10-13",
+          "last_seen_on": "2026-10-03",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/writer/erin_keane",
+          "extracted_on": "2023-02-02",
+          "last_seen_on": "2026-10-01",
+          "still_on_page": true
+        },
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20erin%20keane%20salon",
+          "extracted_on": "2025-01-15",
+          "last_seen_on": "2026-09-03",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2015/07/10/the_grossest_cosby_show_episode_cliff_huxtable_makes_a_secret_sauce_that_makes_people_all_huggy_buggy",
+          "extracted_on": "2025-07-24",
+          "last_seen_on": "2025-07-24",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2020/04/12/how-to-make-better-coffee-at-home-simply-and-without-expensive-gear",
+          "extracted_on": "2025-03-11",
+          "last_seen_on": "2025-03-11",
+          "still_on_page": true
+        },
+        {
+          "domain": "pw.org",
+          "uri": "https://pw.org/review_outlets/salon",
+          "extracted_on": "2026-03-01",
+          "last_seen_on": "2026-03-01",
+          "still_on_page": false
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/about/submissions",
+          "extracted_on": "2020-01-31",
+          "last_seen_on": "2025-09-11",
+          "still_on_page": false
+        },
+        {
+          "domain": "kalhaventrail.org",
+          "uri": "https://kalhaventrail.org/contact.html",
+          "extracted_on": "2025-05-05",
+          "last_seen_on": "2025-08-05",
+          "still_on_page": false
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/about/contact",
+          "extracted_on": "2023-08-03",
+          "last_seen_on": "2025-07-25",
+          "still_on_page": false
+        },
+        {
+          "domain": "thememoirsalon.com",
+          "uri": "https://thememoirsalon.com/contact.html",
+          "extracted_on": "2025-03-30",
+          "last_seen_on": "2025-06-30",
+          "still_on_page": false
+        },
+        {
+          "domain": "handgun-ammo.com",
+          "uri": "https://handgun-ammo.com/www-luckygunner-com",
+          "extracted_on": "2023-07-20",
+          "last_seen_on": "2024-01-21",
+          "still_on_page": false
+        },
+        {
+          "domain": "handgun-ammo.com",
+          "uri": "https://handgun-ammo.com/author/karl/page/63",
+          "extracted_on": "2023-07-20",
+          "last_seen_on": "2023-07-20",
+          "still_on_page": false
+        },
+        {
+          "domain": "handgun-ammo.com",
+          "uri": "https://handgun-ammo.com/category/handgun/page/63",
+          "extracted_on": "2023-07-20",
+          "last_seen_on": "2023-07-20",
+          "still_on_page": false
+        },
+        {
+          "domain": "handgun-ammo.com",
+          "uri": "https://handgun-ammo.com/page/63",
+          "extracted_on": "2023-07-20",
+          "last_seen_on": "2023-07-20",
+          "still_on_page": false
+        },
+        {
+          "domain": "bilarasa.com",
+          "uri": "https://bilarasa.com/email-santander-consumer-usa",
+          "extracted_on": "2023-07-02",
+          "last_seen_on": "2023-07-02",
+          "still_on_page": false
+        },
+        {
+          "domain": "arrowtechworld.com",
+          "uri": "https://arrowtechworld.com/about/submissions",
+          "extracted_on": "2022-12-12",
+          "last_seen_on": "2023-03-11",
+          "still_on_page": false
+        },
+        {
+          "domain": "arrowtechworld.com",
+          "uri": "https://arrowtechworld.com/writer/erin_keane",
+          "extracted_on": "2023-03-11",
+          "last_seen_on": "2023-03-11",
+          "still_on_page": false
+        },
+        {
+          "domain": "everyonewhosanyone.com",
+          "uri": "https://everyonewhosanyone.com/pv/pv05.html",
+          "extracted_on": "2022-01-08",
+          "last_seen_on": "2022-02-22",
+          "still_on_page": false
+        },
+        {
+          "domain": "cnbc-business.com",
+          "uri": "https://cnbc-business.com/about/submissions",
+          "extracted_on": "2021-11-17",
+          "last_seen_on": "2021-11-17",
+          "still_on_page": false
+        },
+        {
+          "domain": "cnbc-business.com",
+          "uri": "https://cnbc-business.com/writer/erin_keane",
+          "extracted_on": "2021-11-17",
+          "last_seen_on": "2021-11-17",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Erin",
+      "last_name": "Keane",
+      "position": "Chief Content Officer",
+      "position_raw": "Chief Content Officer",
+      "seniority": "executive",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/erinekeane",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-24",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "jrothkopf@salon.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 85,
+      "sources": [
+        {
+          "domain": "accessnewsservice.blogspot.com",
+          "uri": "https://accessnewsservice.blogspot.com/2014/10",
+          "extracted_on": "2026-10-16",
+          "last_seen_on": "2026-10-16",
+          "still_on_page": true
+        }
+      ],
+      "first_name": null,
+      "last_name": null,
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "max@salon.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 85,
+      "sources": [
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2000/03/01/trail_mix_12",
+          "extracted_on": "2026-10-27",
+          "last_seen_on": "2026-10-27",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2000/03/15/trail_mix_22",
+          "extracted_on": "2026-10-27",
+          "last_seen_on": "2026-10-27",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2000/03/24/trail_mix_29",
+          "extracted_on": "2026-10-27",
+          "last_seen_on": "2026-10-27",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2000/03/10/trail_mix_19",
+          "extracted_on": "2026-10-25",
+          "last_seen_on": "2026-10-25",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2000/03/31/trail_mix_34",
+          "extracted_on": "2026-10-25",
+          "last_seen_on": "2026-10-25",
+          "still_on_page": true
+        }
+      ],
+      "first_name": null,
+      "last_name": null,
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "jason.howard@salon.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 85,
+      "sources": [
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/about/submissions",
+          "extracted_on": "2025-07-24",
+          "last_seen_on": "2026-10-27",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2026/05/01/scotus-just-unleashed-a-gerrymandering-dragon",
+          "extracted_on": "2026-10-02",
+          "last_seen_on": "2026-10-02",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/writer/jason_kyle_howard",
+          "extracted_on": "2026-06-26",
+          "last_seen_on": "2026-10-02",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Jason",
+      "last_name": "Howard",
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-21",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "rgay@salon.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 85,
+      "sources": [
+        {
+          "domain": "marikacooper.weebly.com",
+          "uri": "https://marikacooper.weebly.com/uploads/1/7/4/8/17489279/reading_lab_exemplar_1.pdf",
+          "extracted_on": "2023-06-17",
+          "last_seen_on": "2026-10-25",
+          "still_on_page": true
+        },
+        {
+          "domain": "americanjunkdrawer.blogspot.com",
+          "uri": "https://americanjunkdrawer.blogspot.com/2014/02/the-myth-and-truth-of-being-white.html",
+          "extracted_on": "2017-10-13",
+          "last_seen_on": "2026-10-18",
+          "still_on_page": true
+        },
+        {
+          "domain": "american-psycho-path.blogspot.com",
+          "uri": "https://american-psycho-path.blogspot.com/2015/08/the-racial-divide-is-construction-brief.html",
+          "extracted_on": "2019-11-22",
+          "last_seen_on": "2026-10-16",
+          "still_on_page": true
+        },
+        {
+          "domain": "americanjunkdrawer.blogspot.com",
+          "uri": "https://americanjunkdrawer.blogspot.com/2014/02",
+          "extracted_on": "2017-10-13",
+          "last_seen_on": "2026-10-15",
+          "still_on_page": true
+        },
+        {
+          "domain": "alternet.org",
+          "uri": "https://alternet.org/2014/02/what-white-people-need-learn",
+          "extracted_on": "2021-07-11",
+          "last_seen_on": "2026-10-07",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2013/11/12/what_a_tragic_death_taught_me_about_organized_religion",
+          "extracted_on": "2026-08-23",
+          "last_seen_on": "2026-10-02",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2014/01/22/hooray_for_joan_watson_why_well_rounded_asian_american_characters_matter",
+          "extracted_on": "2026-09-17",
+          "last_seen_on": "2026-09-17",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2013/12/10/the_cruel_choice_black_women_face_between_education_and_safety",
+          "extracted_on": "2026-08-25",
+          "last_seen_on": "2026-09-09",
+          "still_on_page": true
+        },
+        {
+          "domain": "5election.com",
+          "uri": "https://5election.com/2013/10/24/castoffs-leftovers-the-mixed-benefits-of-working-for-a-white-family",
+          "extracted_on": "2019-01-07",
+          "last_seen_on": "2026-08-30",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2013/11/05/who_will_protect_us_why_im_still_conflicted_about_guns_as_a_black_feminist",
+          "extracted_on": "2026-05-23",
+          "last_seen_on": "2026-08-24",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2013/10/01/why_im_still_a_catholic",
+          "extracted_on": "2026-08-23",
+          "last_seen_on": "2026-08-23",
+          "still_on_page": true
+        },
+        {
+          "domain": "kalamu.com",
+          "uri": "https://kalamu.com/neogriot/2013/09/13/pub-calling-for-submissions-by-feminists-of-color",
+          "extracted_on": "2022-01-31",
+          "last_seen_on": "2024-05-07",
+          "still_on_page": false
+        },
+        {
+          "domain": "route9litmag.com",
+          "uri": "https://route9litmag.com/post/74277596541/via-calling-for-submissions-by-feminists-of-color",
+          "extracted_on": "2019-02-07",
+          "last_seen_on": "2024-02-25",
+          "still_on_page": false
+        },
+        {
+          "domain": "route9litmag.com",
+          "uri": "https://route9litmag.com/tagged/feminism",
+          "extracted_on": "2018-10-11",
+          "last_seen_on": "2024-02-25",
+          "still_on_page": false
+        },
+        {
+          "domain": "route9litmag.com",
+          "uri": "https://route9litmag.com/tagged/roxane%2520gay",
+          "extracted_on": "2023-04-08",
+          "last_seen_on": "2024-02-25",
+          "still_on_page": false
+        },
+        {
+          "domain": "route9litmag.com",
+          "uri": "https://route9litmag.com/tagged/salon",
+          "extracted_on": "2019-02-07",
+          "last_seen_on": "2024-02-25",
+          "still_on_page": false
+        },
+        {
+          "domain": "route9litmag.com",
+          "uri": "https://route9litmag.com/tagged/writing",
+          "extracted_on": "2020-04-10",
+          "last_seen_on": "2024-02-24",
+          "still_on_page": false
+        },
+        {
+          "domain": "journal-isms.com",
+          "uri": "https://journal-isms.com/2014/08/archive-8000",
+          "extracted_on": "2023-10-24",
+          "last_seen_on": "2024-01-24",
+          "still_on_page": false
+        },
+        {
+          "domain": "cbcdiversity.com",
+          "uri": "https://cbcdiversity.com/tagged/feminism",
+          "extracted_on": "2018-08-27",
+          "last_seen_on": "2024-01-15",
+          "still_on_page": false
+        },
+        {
+          "domain": "cbcdiversity.com",
+          "uri": "https://cbcdiversity.com/archive/2013/9",
+          "extracted_on": "2020-12-08",
+          "last_seen_on": "2023-12-08",
+          "still_on_page": false
+        },
+        {
+          "domain": "failuretolisten.com",
+          "uri": "https://failuretolisten.com/2013/10/12/castoffs-and-leftovers-the-mixed-benefits-of-working-for-a-white-family",
+          "extracted_on": "2019-03-21",
+          "last_seen_on": "2020-04-24",
+          "still_on_page": false
+        },
+        {
+          "domain": "rookiemag.tumblr.com",
+          "uri": "https://rookiemag.tumblr.com/tagged/feminism",
+          "extracted_on": "2020-01-15",
+          "last_seen_on": "2020-04-15",
+          "still_on_page": false
+        },
+        {
+          "domain": "rookiemag.tumblr.com",
+          "uri": "https://rookiemag.tumblr.com/tagged/poc",
+          "extracted_on": "2020-01-15",
+          "last_seen_on": "2020-04-15",
+          "still_on_page": false
+        },
+        {
+          "domain": "adonis49.wordpress.com",
+          "uri": "https://adonis49.wordpress.com/2014/03/11",
+          "extracted_on": "2019-10-25",
+          "last_seen_on": "2020-04-13",
+          "still_on_page": false
+        },
+        {
+          "domain": "adonis49.wordpress.com",
+          "uri": "https://adonis49.wordpress.com/2014/03/11/belly-dancing-performed-by-white-western-women",
+          "extracted_on": "2019-10-25",
+          "last_seen_on": "2020-04-13",
+          "still_on_page": false
+        },
+        {
+          "domain": "africanlovestories.wordpress.com",
+          "uri": "https://africanlovestories.wordpress.com/2013/09/18/feminists-of-colour-call-for-submissions",
+          "extracted_on": "2017-10-06",
+          "last_seen_on": "2020-04-04",
+          "still_on_page": false
+        },
+        {
+          "domain": "africanlovestories.wordpress.com",
+          "uri": "https://africanlovestories.wordpress.com/page/7",
+          "extracted_on": "2019-12-17",
+          "last_seen_on": "2020-04-04",
+          "still_on_page": false
+        },
+        {
+          "domain": "cbcdiversity.com",
+          "uri": "https://cbcdiversity.com/post/61088221204/calling-for-submissions-by-feminists-of-color",
+          "extracted_on": "2019-03-29",
+          "last_seen_on": "2020-01-12",
+          "still_on_page": false
+        },
+        {
+          "domain": "cbcdiversity.com",
+          "uri": "https://cbcdiversity.com/tagged/salon",
+          "extracted_on": "2018-08-27",
+          "last_seen_on": "2020-01-12",
+          "still_on_page": false
+        },
+        {
+          "domain": "cbcdiversity.com",
+          "uri": "https://cbcdiversity.com/tagged/writing/page/9",
+          "extracted_on": "2019-03-29",
+          "last_seen_on": "2020-01-12",
+          "still_on_page": false
+        }
+      ],
+      "first_name": null,
+      "last_name": null,
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "jtapper@salon.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 85,
+      "sources": [
+        {
+          "domain": "alfredgaronowitz.com",
+          "uri": "https://alfredgaronowitz.com/column87b.html",
+          "extracted_on": "2019-10-31",
+          "last_seen_on": "2026-10-29",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2001/09/11/reports",
+          "extracted_on": "2019-08-14",
+          "last_seen_on": "2026-10-28",
+          "still_on_page": true
+        },
+        {
+          "domain": "theblacklistedjournalist.com",
+          "uri": "https://theblacklistedjournalist.com/column87b.html",
+          "extracted_on": "2020-01-15",
+          "last_seen_on": "2026-10-27",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2000/10/17/politics_3",
+          "extracted_on": "2019-06-03",
+          "last_seen_on": "2026-10-26",
+          "still_on_page": true
+        },
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/2001/06/27/bushed_44",
+          "extracted_on": "2019-12-31",
+          "last_seen_on": "2026-10-15",
+          "still_on_page": true
+        },
+        {
+          "domain": "blacklistedjournalist.com",
+          "uri": "https://blacklistedjournalist.com/column87b.html",
+          "extracted_on": "2017-11-28",
+          "last_seen_on": "2026-09-19",
+          "still_on_page": true
+        },
+        {
+          "domain": "la.indymedia.org",
+          "uri": "https://la.indymedia.org/news/2006/08/173127.php",
+          "extracted_on": "2018-08-23",
+          "last_seen_on": "2026-09-09",
+          "still_on_page": true
+        },
+        {
+          "domain": "alaronowitz.com",
+          "uri": "https://alaronowitz.com/column87b.html",
+          "extracted_on": "2019-09-15",
+          "last_seen_on": "2026-09-07",
+          "still_on_page": true
+        },
+        {
+          "domain": "ronpaulforums.com",
+          "uri": "https://ronpaulforums.com/archive/index.php/t-63280.html",
+          "extracted_on": "2025-09-21",
+          "last_seen_on": "2025-12-22",
+          "still_on_page": true
+        },
+        {
+          "domain": "silencedmajority.blogs.com",
+          "uri": "https://silencedmajority.blogs.com/silenced_majority_portal/2007/02/a_few_media_con.html",
+          "extracted_on": "2022-08-26",
+          "last_seen_on": "2024-06-12",
+          "still_on_page": false
+        },
+        {
+          "domain": "salon1999.com",
+          "uri": "https://salon1999.com/news/feature/1999/10/07/flake",
+          "extracted_on": "2016-06-10",
+          "last_seen_on": "2022-07-28",
+          "still_on_page": false
+        },
+        {
+          "domain": "salon1999.com",
+          "uri": "https://salon1999.com/about/staff",
+          "extracted_on": "2016-06-10",
+          "last_seen_on": "2022-07-19",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Jake",
+      "last_name": "Tapper",
+      "position": "Writer",
+      "position_raw": "Writer",
+      "seniority": null,
+      "department": "communication",
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "garrett.owen@salon.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 84,
+      "sources": [
+        {
+          "domain": "salon.com",
+          "uri": "https://salon.com/writer/garrett-owen",
+          "extracted_on": "2026-09-18",
+          "last_seen_on": "2026-10-02",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Garrett",
+      "last_name": "Owen",
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-18",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "hnguyen@salon.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 84,
+      "sources": [
+        {
+          "domain": "everyonewhosanyone.com",
+          "uri": "https://everyonewhosanyone.com/pv/pv06.html",
+          "extracted_on": "2026-09-06",
+          "last_seen_on": "2026-10-29",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Hanh",
+      "last_name": "Nguyen",
+      "position": "Senior Editor",
+      "position_raw": "Senior Editor",
+      "seniority": "senior",
+      "department": "communication",
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-20",
+        "status": "accept_all"
+      }
+    },
+    {
+      "value": "abenfer@salon.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 84,
+      "sources": [
+        {
+          "domain": "trendyshoes4u.blogspot.com",
+          "uri": "https://trendyshoes4u.blogspot.com/2011/07/images-imgdesc8-img-srcimgurl1-alt_04.html",
+          "extracted_on": "2026-09-21",
+          "last_seen_on": "2026-09-21",
+          "still_on_page": true
+        },
+        {
+          "domain": "justinbieberedan.blogspot.com",
+          "uri": "https://justinbieberedan.blogspot.com/2011/07/fireworks-wallpaper-2010.html",
+          "extracted_on": "2026-09-10",
+          "last_seen_on": "2026-09-10",
+          "still_on_page": true
+        },
+        {
+          "domain": "pleasedontvomitinthetaxi.blogspot.com",
+          "uri": "https://pleasedontvomitinthetaxi.blogspot.com/2014/01/why-wont-new-york-city-comptrollers.html",
+          "extracted_on": "2026-08-30",
+          "last_seen_on": "2026-08-30",
+          "still_on_page": true
+        },
+        {
+          "domain": "alecrux.blogspot.com",
+          "uri": "https://alecrux.blogspot.com/2011/09/tom-hanks-movies-list.html",
+          "extracted_on": "2026-08-29",
+          "last_seen_on": "2026-08-29",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Heather",
+      "last_name": "Abenfer",
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    }
+  ]
+}

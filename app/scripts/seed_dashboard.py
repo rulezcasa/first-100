@@ -15,26 +15,31 @@ from app import db, usage
 
 MARK = "sample"  # leads.source can't hold it, so sample leads are tagged in research_json
 
+# Same segments (and industry labels) as the real leads, so the reply-rate chart groups them together.
+SALONS = "Independent beauty salons and wellness clinics"
+BEAUTY = "SMEs in the beauty and wellness industry"
+RETAIL = "Retail SMEs with limited operational resources"
+
 LEADS = [
     # company, industry, person, title, tier, score, stage, outcome, deal (status, value)
-    ("Acme Freight", "logistics", "Jane Doe", "COO", "A", 87, "sent", "meeting", ("confirmed", 4800)),
-    ("Northwind Supply", "logistics", "Raj Patel", "VP Operations", "A", 82, "sent", "meeting", ("confirmed", 3600)),
-    ("Harbor Cold Chain", "logistics", "Lena Ortiz", "Head of Warehousing", "A", 79, "sent", "replied", ("potential", 5200)),
-    ("Bluepeak Outfitters", "retail", "Sam Lee", "Ops Director", "B", 71, "sent", "meeting", ("confirmed", 2400)),
-    ("Maple & Co Grocers", "retail", "Priya Nair", "Supply Chain Lead", "B", 66, "sent", "replied", ("potential", 1800)),
-    ("Ferro Parts", "manufacturing", "Tom Becker", "Plant Manager", "B", 68, "sent", "replied", ("lost", 3000)),
-    ("Quanta Components", "manufacturing", "Mia Chen", "COO", "B", 63, "sent", "meeting", ("potential", 4100)),
-    ("Swift Courier", "logistics", "Omar Haddad", "CEO", "A", 75, "sent", "no_reply", None),
-    ("Urban Threads", "retail", "Kate Morris", "Inventory Manager", "C", 52, "sent", "no_reply", None),
-    ("Delta Fabrication", "manufacturing", "Luis Romero", "Operations Lead", "C", 48, "sent", "no_reply", None),
-    ("Pinecrest Pharmacy", "healthcare", "Ana Silva", "Procurement Head", "B", 60, "sent", "no_reply", None),
-    ("Redline Logistics", "logistics", "Chris Wu", "VP Supply Chain", "A", 80, "drafted", None, None),
-    ("Cobalt Home Goods", "retail", "Nina Park", "COO", "B", 64, "drafted", None, None),
-    ("Summit Medical Supply", "healthcare", "Ben Carter", "Ops Director", "B", 58, "found", None, None),
-    ("Ironwood Tools", "manufacturing", "Eva Novak", "Supply Chain Manager", "C", 45, "found", None, None),
+    ("Glow Theory Studio", SALONS, "Maya Brooks", "Owner", "A", 84, "sent", "meeting", ("confirmed", 2400)),
+    ("Lumen Skin Clinic", SALONS, "Daniel Reyes", "Clinic Director", "A", 81, "sent", "meeting", ("confirmed", 3600)),
+    ("The Hair Atelier", SALONS, "Sofia Marchetti", "Founder", "A", 78, "sent", "replied", ("potential", 1800)),
+    ("Bloom Wellness Spa", SALONS, "Grace Kim", "Spa Manager", "B", 70, "sent", "meeting", ("potential", 3000)),
+    ("Velvet Nail Bar", SALONS, "Aisha Rahman", "Owner", "B", 62, "sent", "no_reply", None),
+    ("Serenity Day Spa", BEAUTY, "Hannah Lewis", "Operations Manager", "A", 76, "sent", "meeting", ("confirmed", 4200)),
+    ("Pure Aesthetics Group", BEAUTY, "Marcus Hall", "COO", "B", 68, "sent", "replied", ("lost", 2500)),
+    ("Kindred Beauty Co", BEAUTY, "Olivia Tran", "Head of Operations", "B", 64, "sent", "no_reply", None),
+    ("Halo Brow & Lash", BEAUTY, "Zoe Adams", "Founder", "C", 52, "sent", "no_reply", None),
+    ("Corner Page Books", RETAIL, "Peter Walsh", "Store Manager", "B", 60, "sent", "replied", ("potential", 1500)),
+    ("Hearth & Home Goods", RETAIL, "Laura Bennett", "Owner", "B", 58, "sent", "no_reply", None),
+    ("Nomad Outdoor Supply", RETAIL, "Ethan Cole", "Ops Lead", "C", 47, "sent", "no_reply", None),
+    ("Rosewood Salon", SALONS, "Chloe Martin", "Owner", "A", 80, "drafted", None, None),
+    ("Willow Wellness", BEAUTY, "Isabel Cruz", "Clinic Manager", "B", 66, "drafted", None, None),
+    ("Fable Bookshop", RETAIL, "Noah Grant", "Owner", "C", 44, "found", None, None),
 ]
 
-AGENTS = {"scout": (30, 2500, 300), "researcher": (55, 4000, 600), "writer": (40, 3000, 450), "learner": (6, 3500, 400), "tool": (90, 1800, 350)}
+AGENTS = {"Scout": (30, 2500, 300), "Researcher": (55, 4000, 600), "Writer": (40, 3000, 450), "Learner": (6, 3500, 400), "tool": (90, 1800, 350)}
 
 
 def reset() -> None:

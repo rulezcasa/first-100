@@ -1,0 +1,62 @@
+{
+  "domain": "studio8.si",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": false,
+  "pattern": null,
+  "organization": "Studio 8",
+  "linked_domains": [],
+  "emails": [
+    {
+      "value": "maja.pirs@studio8.si",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 77,
+      "sources": [
+        {
+          "domain": "2014.festivalmaribor.si",
+          "uri": "https://2014.festivalmaribor.si/en/contacts",
+          "extracted_on": "2018-09-29",
+          "last_seen_on": "2026-10-26",
+          "still_on_page": true
+        },
+        {
+          "domain": "2014.festivalmaribor.si",
+          "uri": "https://2014.festivalmaribor.si/en/press",
+          "extracted_on": "2018-09-29",
+          "last_seen_on": "2026-10-21",
+          "still_on_page": true
+        },
+        {
+          "domain": "2014.festivalmaribor.si",
+          "uri": "https://2014.festivalmaribor.si/de/kontakt",
+          "extracted_on": "2018-09-24",
+          "last_seen_on": "2026-10-20",
+          "still_on_page": true
+        },
+        {
+          "domain": "2014.festivalmaribor.si",
+          "uri": "https://2014.festivalmaribor.si/kontakti",
+          "extracted_on": "2017-11-04",
+          "last_seen_on": "2026-09-16",
+          "still_on_page": true
+        }
+      ],
+      "first_name": null,
+      "last_name": null,
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    }
+  ]
+}

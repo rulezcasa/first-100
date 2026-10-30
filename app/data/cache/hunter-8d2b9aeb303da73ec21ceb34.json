@@ -1,0 +1,29 @@
+{
+  "status": "valid",
+  "score": 100,
+  "email": "tiffany@salonsalonbakersfield.com",
+  "regexp": true,
+  "gibberish": false,
+  "disposable": false,
+  "webmail": false,
+  "mx_records": true,
+  "smtp_server": true,
+  "smtp_check": true,
+  "accept_all": false,
+  "block": false,
+  "verification": {
+    "date": "2026-10-30",
+    "status": "valid"
+  },
+  "sources": [
+    {
+      "domain": "salonsalonbakersfield.com",
+      "uri": "https://salonsalonbakersfield.com",
+      "extracted_on": "2024-03-09",
+      "last_seen_on": "2026-08-18",
+      "still_on_page": true
+    }
+  ],
+  "result": "deliverable",
+  "_deprecation_notice": "Using result is deprecated, use status instead"
+}

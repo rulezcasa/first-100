@@ -1,0 +1,311 @@
+{
+  "domain": "fresha.com",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": true,
+  "pattern": "{first}.{last}",
+  "organization": "Fresha",
+  "linked_domains": [],
+  "emails": [
+    {
+      "value": "carlos.walther@fresha.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 75,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20carlos%20walther%20fresha",
+          "extracted_on": "2026-10-05",
+          "last_seen_on": "2026-10-05",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Carlos",
+      "last_name": "Walther",
+      "position": "Head of Commercial",
+      "position_raw": "Head of Commercial | Mexico Launch",
+      "seniority": "executive",
+      "department": "sales",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/carlos-walther-m",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-29",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "matthew.styles@fresha.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 75,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20matt%20styles%20fresha",
+          "extracted_on": "2026-10-01",
+          "last_seen_on": "2026-10-01",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Matt",
+      "last_name": "Styles",
+      "position": "Head of Engineering",
+      "position_raw": "Head of Engineering",
+      "seniority": "executive",
+      "department": "it",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/matt-styles-29886441",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-22",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "scott.obrien@fresha.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 75,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20scott%20o%27brien%20fresha",
+          "extracted_on": "2026-09-28",
+          "last_seen_on": "2026-09-28",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Scott",
+      "last_name": "O'Brien",
+      "position": "General Manager",
+      "position_raw": "General Manager, North America",
+      "seniority": "senior",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/scottfobrienjr",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-29",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "kevin.sanchez@fresha.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 75,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20kevin%20sanchez%20fresha",
+          "extracted_on": "2026-09-20",
+          "last_seen_on": "2026-09-20",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Kevin",
+      "last_name": "Sanchez",
+      "position": "Chief Commercial Officer",
+      "position_raw": "Acting Chief Commercial Officer",
+      "seniority": "executive",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/sanchezkevin",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-24",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "hussein.sleiman@fresha.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 75,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20hussein%20sleiman%20fresha",
+          "extracted_on": "2026-09-06",
+          "last_seen_on": "2026-09-06",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Hussein",
+      "last_name": "Sleiman",
+      "position": "General Manager",
+      "position_raw": "General Manager - GCC",
+      "seniority": "senior",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/hssleiman",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-10",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "david.forman@fresha.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 75,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20david%20forman%20fresha",
+          "extracted_on": "2026-06-20",
+          "last_seen_on": "2026-08-21",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "David",
+      "last_name": "Forman",
+      "position": "General Manager",
+      "position_raw": "General Manager - Southern Europe",
+      "seniority": "senior",
+      "department": "management",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/davidpforman",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-19",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "brian.donley@fresha.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 75,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20brian%20donley%20fresha",
+          "extracted_on": "2026-05-11",
+          "last_seen_on": "2026-08-24",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Brian",
+      "last_name": "Donley",
+      "position": "Head of Sales",
+      "position_raw": "Head of Sales, North America East Coast",
+      "seniority": "executive",
+      "department": "sales",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/brian-donley-60203a65",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-08",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "oskar.janusz@fresha.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 75,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20oskar%20janusz%20fresha",
+          "extracted_on": "2026-02-09",
+          "last_seen_on": "2026-08-23",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Oskar",
+      "last_name": "Janusz",
+      "position": "Backend Developer",
+      "position_raw": "Backend Developer / Delivery Owner",
+      "seniority": null,
+      "department": "it",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/oskarjanusz",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-29",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "matthew.shine@fresha.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 75,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20matthew%20shine%20fresha",
+          "extracted_on": "2025-10-06",
+          "last_seen_on": "2026-08-28",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Matthew",
+      "last_name": "Shine",
+      "position": "Director of Engineering",
+      "position_raw": "Head of Engineering",
+      "seniority": "executive",
+      "department": "it",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/matthew-shine-61a38865",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-29",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "alex.vlad@fresha.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 75,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20alex%20vlad%20fresha",
+          "extracted_on": "2025-07-07",
+          "last_seen_on": "2026-08-25",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Alex",
+      "last_name": "Vlad",
+      "position": "Director of Product Education",
+      "position_raw": "Head of Product Education",
+      "seniority": "executive",
+      "department": "education",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/alex-vlad",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-29",
+        "status": "valid"
+      }
+    }
+  ]
+}
