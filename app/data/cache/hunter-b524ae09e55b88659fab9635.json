@@ -1,0 +1,738 @@
+{
+  "domain": "phenixsalonsuites.com",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": false,
+  "pattern": "{f}{last}",
+  "organization": "Phenix Salon Suites",
+  "linked_domains": [],
+  "emails": [
+    {
+      "value": "swilson@phenixsalonsuites.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 99,
+      "sources": [
+        {
+          "domain": "ginacares.org",
+          "uri": "https://ginacares.org/sponsors",
+          "extracted_on": "2023-09-18",
+          "last_seen_on": "2026-07-08",
+          "still_on_page": false
+        },
+        {
+          "domain": "seegina.com",
+          "uri": "https://seegina.com/colour-your-life",
+          "extracted_on": "2016-02-11",
+          "last_seen_on": "2026-05-04",
+          "still_on_page": false
+        },
+        {
+          "domain": "seegina.com",
+          "uri": "https://seegina.com/contact-2",
+          "extracted_on": "2016-02-11",
+          "last_seen_on": "2026-05-04",
+          "still_on_page": false
+        },
+        {
+          "domain": "seegina.com",
+          "uri": "https://seegina.com/about-gina",
+          "extracted_on": "2016-02-11",
+          "last_seen_on": "2026-05-03",
+          "still_on_page": false
+        },
+        {
+          "domain": "seegina.com",
+          "uri": "https://seegina.com/contact",
+          "extracted_on": "2016-02-11",
+          "last_seen_on": "2026-05-03",
+          "still_on_page": false
+        },
+        {
+          "domain": "everything-pr.com",
+          "uri": "https://everything-pr.com/phenix-salon-suites",
+          "extracted_on": "2018-11-15",
+          "last_seen_on": "2026-02-07",
+          "still_on_page": false
+        },
+        {
+          "domain": "ginasglamjam.com",
+          "uri": "https://ginasglamjam.com/become-a-partner-exhibitor",
+          "extracted_on": "2025-07-06",
+          "last_seen_on": "2026-01-06",
+          "still_on_page": false
+        },
+        {
+          "domain": "slogicdev.com",
+          "uri": "https://slogicdev.com/phenixfamily1929/contact-us",
+          "extracted_on": "2018-12-12",
+          "last_seen_on": "2025-05-11",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-us",
+          "extracted_on": "2023-01-17",
+          "last_seen_on": "2025-04-20",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/meet-gina-rivera-of-phenix-salon-suites-by-gina-products",
+          "extracted_on": "2020-06-30",
+          "last_seen_on": "2025-04-17",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/meet-your-team-sherrie-wilson-director-of-marketing-and-public-relations",
+          "extracted_on": "2020-06-30",
+          "last_seen_on": "2025-04-17",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/montage-in-a-montage",
+          "extracted_on": "2019-08-21",
+          "last_seen_on": "2025-04-17",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/now-that-is-a-suite-salon",
+          "extracted_on": "2021-07-05",
+          "last_seen_on": "2025-04-17",
+          "still_on_page": false
+        },
+        {
+          "domain": "everything-pr.com",
+          "uri": "https://everything-pr.com/phenix-salon-suites/52506",
+          "extracted_on": "2018-04-12",
+          "last_seen_on": "2020-08-23",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.wordpress.com",
+          "uri": "https://phenixsalonsuites.wordpress.com/2014/01",
+          "extracted_on": "2019-03-27",
+          "last_seen_on": "2020-04-14",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.wordpress.com",
+          "uri": "https://phenixsalonsuites.wordpress.com/2014/04",
+          "extracted_on": "2019-12-28",
+          "last_seen_on": "2020-04-14",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.wordpress.com",
+          "uri": "https://phenixsalonsuites.wordpress.com/2014/05",
+          "extracted_on": "2019-12-28",
+          "last_seen_on": "2020-04-14",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.wordpress.com",
+          "uri": "https://phenixsalonsuites.wordpress.com/author/phenixsalonsuites/page/7",
+          "extracted_on": "2020-04-14",
+          "last_seen_on": "2020-04-14",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.wordpress.com",
+          "uri": "https://phenixsalonsuites.wordpress.com/category/uncategorized/page/7",
+          "extracted_on": "2020-04-14",
+          "last_seen_on": "2020-04-14",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixfamily1929.com",
+          "uri": "https://phenixfamily1929.com/contact-us",
+          "extracted_on": "2016-12-01",
+          "last_seen_on": "2019-12-01",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixfamily1929.com",
+          "uri": "https://phenixfamily1929.com/temporary-closed",
+          "extracted_on": "2019-08-13",
+          "last_seen_on": "2019-12-01",
+          "still_on_page": false
+        },
+        {
+          "domain": "pictame.com",
+          "uri": "https://pictame.com/tag/hairstudio",
+          "extracted_on": "2019-09-04",
+          "last_seen_on": "2019-09-04",
+          "still_on_page": false
+        },
+        {
+          "domain": "toolsbygina.com",
+          "uri": "https://toolsbygina.com/about-us",
+          "extracted_on": "2016-02-11",
+          "last_seen_on": "2016-09-21",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Sherrie",
+      "last_name": "Wilson",
+      "position": "Director Of Marketing And Public Relations",
+      "position_raw": "Director Of Marketing And Public Relations",
+      "seniority": "executive",
+      "department": "communication",
+      "decision_maker": true,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": "+1 719 491 9682",
+      "verification": {
+        "date": "2026-10-07",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "jgriffith@phenixsalonsuites.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 98,
+      "sources": [
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/locations/west-hills",
+          "extracted_on": "2026-02-28",
+          "last_seen_on": "2026-05-13",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-us",
+          "extracted_on": "2023-01-17",
+          "last_seen_on": "2025-04-20",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-2",
+          "extracted_on": "2020-06-22",
+          "last_seen_on": "2022-10-15",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-page-2",
+          "extracted_on": "2016-03-25",
+          "last_seen_on": "2020-03-30",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Jerry",
+      "last_name": "Griffith",
+      "position": "Executive Vice President",
+      "position_raw": "Executive Vice President",
+      "seniority": "executive",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": "+1 719 785 4858",
+      "verification": {
+        "date": "2026-10-13",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "djohanningmeier@phenixsalonsuites.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 96,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20dennis%20johanningmeier%20phenixsalonsuites",
+          "extracted_on": "2025-01-09",
+          "last_seen_on": "2026-08-27",
+          "still_on_page": true
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-us",
+          "extracted_on": "2023-01-17",
+          "last_seen_on": "2024-04-20",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-2",
+          "extracted_on": "2020-06-22",
+          "last_seen_on": "2022-10-15",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-page-2",
+          "extracted_on": "2018-01-13",
+          "last_seen_on": "2020-03-30",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Dennis",
+      "last_name": "Johanningmeier",
+      "position": "Managing Partner",
+      "position_raw": "Managing Partner",
+      "seniority": "executive",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/dennis-johanningmeier-44585118",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-01",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "bwilliamson@phenixsalonsuites.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 98,
+      "sources": [
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/locations/az-surprise",
+          "extracted_on": "2025-07-18",
+          "last_seen_on": "2026-04-21",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-us",
+          "extracted_on": "2023-01-17",
+          "last_seen_on": "2025-04-20",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Barbara",
+      "last_name": "Williamson",
+      "position": "Project Manager",
+      "position_raw": "Project Manager",
+      "seniority": "senior",
+      "department": "management",
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": "+1 719 785 4858",
+      "verification": {
+        "date": "2026-10-23",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "bkelley@phenixsalonsuites.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 97,
+      "sources": [
+        {
+          "domain": "global-franchise.com",
+          "uri": "https://global-franchise.com/case-study/phenix-salon-suites-opens-europes-first-salon-workspace-franchise",
+          "extracted_on": "2026-09-10",
+          "last_seen_on": "2026-09-10",
+          "still_on_page": true
+        },
+        {
+          "domain": "franchisepressreleases.com",
+          "uri": "https://franchisepressreleases.com/listing/phenix-salon-suites-accelerates-midwest-growth-with-two-new-locations-in-illinois",
+          "extracted_on": "2026-07-13",
+          "last_seen_on": "2026-07-13",
+          "still_on_page": true
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-us",
+          "extracted_on": "2023-01-17",
+          "last_seen_on": "2025-04-20",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-2",
+          "extracted_on": "2020-06-22",
+          "last_seen_on": "2022-10-15",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-page-2",
+          "extracted_on": "2019-05-16",
+          "last_seen_on": "2020-03-30",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Brian",
+      "last_name": "Kelley",
+      "position": "Executive Assistant",
+      "position_raw": "Executive Assistant",
+      "seniority": "executive",
+      "department": "administrative",
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": "+1 858 395 7907",
+      "verification": {
+        "date": "2026-10-27",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "pberman@phenixsalonsuites.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 96,
+      "sources": [
+        {
+          "domain": "members.orangeny.com",
+          "uri": "https://members.orangeny.com:443/chamber-calendar/Details/ribbon-cutting-phenix-salon-suites-1900234",
+          "extracted_on": "2026-10-03",
+          "last_seen_on": "2026-10-03",
+          "still_on_page": true
+        }
+      ],
+      "first_name": null,
+      "last_name": null,
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "stuttle@phenixsalonsuites.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 96,
+      "sources": [
+        {
+          "domain": "phenixsalonsroswell.com",
+          "uri": "https://phenixsalonsroswell.com/contact",
+          "extracted_on": "2026-06-04",
+          "last_seen_on": "2026-09-12",
+          "still_on_page": true
+        },
+        {
+          "domain": "phenixsalonsatlanta.com",
+          "uri": "https://phenixsalonsatlanta.com/contact",
+          "extracted_on": "2018-12-10",
+          "last_seen_on": "2026-09-07",
+          "still_on_page": true
+        },
+        {
+          "domain": "phenixsalonspeachtree.com",
+          "uri": "https://phenixsalonspeachtree.com/contact",
+          "extracted_on": "2018-11-02",
+          "last_seen_on": "2026-09-05",
+          "still_on_page": true
+        },
+        {
+          "domain": "phenixsalonsatlanta.com",
+          "uri": "https://phenixsalonsatlanta.com/privacy-policy",
+          "extracted_on": "2026-08-18",
+          "last_seen_on": "2026-08-18",
+          "still_on_page": true
+        },
+        {
+          "domain": "atlanta.craigslist.org",
+          "uri": "https://atlanta.craigslist.org/eat/spa/d/snellville-phenix-salon-suites-rent/7020297165.html",
+          "extracted_on": "2019-12-12",
+          "last_seen_on": "2019-12-12",
+          "still_on_page": false
+        },
+        {
+          "domain": "atlanta.craigslist.org",
+          "uri": "https://atlanta.craigslist.org/nat/spa/d/norcross-rent-beautiful-suite-without/7020293033.html",
+          "extracted_on": "2019-12-12",
+          "last_seen_on": "2019-12-12",
+          "still_on_page": false
+        },
+        {
+          "domain": "atlanta.craigslist.org",
+          "uri": "https://atlanta.craigslist.org/nat/spa/d/roswell-phenix-salon-suites-beautiful/7020288095.html",
+          "extracted_on": "2019-12-12",
+          "last_seen_on": "2019-12-12",
+          "still_on_page": false
+        },
+        {
+          "domain": "atlanta.craigslist.org",
+          "uri": "https://atlanta.craigslist.org/nat/spa/d/norcross-rent-suite-without-signing/6952857678.html",
+          "extracted_on": "2019-09-01",
+          "last_seen_on": "2019-09-01",
+          "still_on_page": false
+        },
+        {
+          "domain": "atlanta.craigslist.org",
+          "uri": "https://atlanta.craigslist.org/nat/spa/d/norcross-rent-suite-without-signing/6959147869.html",
+          "extracted_on": "2019-09-01",
+          "last_seen_on": "2019-09-01",
+          "still_on_page": false
+        }
+      ],
+      "first_name": null,
+      "last_name": null,
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-26",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "pwatson@phenixsalonsuites.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 95,
+      "sources": [
+        {
+          "domain": "phenixsalonsuitesfranchising.com",
+          "uri": "https://phenixsalonsuitesfranchising.com/available-territories/international-opportunities",
+          "extracted_on": "2024-04-03",
+          "last_seen_on": "2025-06-24",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-us",
+          "extracted_on": "2023-01-17",
+          "last_seen_on": "2025-04-20",
+          "still_on_page": false
+        },
+        {
+          "domain": "clubindustryfranchiseguide.com",
+          "uri": "https://clubindustryfranchiseguide.com/clubindustryfranchiseg/phenix-salon-suites",
+          "extracted_on": "2023-04-03",
+          "last_seen_on": "2024-01-10",
+          "still_on_page": false
+        },
+        {
+          "domain": "stitcher.com",
+          "uri": "https://stitcher.com/podcast/blogtalkradio/toughtalkradionetwork",
+          "extracted_on": "2022-07-19",
+          "last_seen_on": "2023-03-20",
+          "still_on_page": false
+        },
+        {
+          "domain": "stitcher.com",
+          "uri": "https://stitcher.com/show/toughtalkradionetwork",
+          "extracted_on": "2022-08-19",
+          "last_seen_on": "2023-03-19",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-2",
+          "extracted_on": "2020-06-22",
+          "last_seen_on": "2022-10-15",
+          "still_on_page": false
+        },
+        {
+          "domain": "dewas5pzco3y6.cloudfront.net",
+          "uri": "https://dewas5pzco3y6.cloudfront.net/popular/business/2",
+          "extracted_on": "2022-08-10",
+          "last_seen_on": "2022-08-10",
+          "still_on_page": false
+        },
+        {
+          "domain": "blogtalkradio.com",
+          "uri": "https://blogtalkradio.com/business/archived/3",
+          "extracted_on": "2022-07-21",
+          "last_seen_on": "2022-08-09",
+          "still_on_page": false
+        },
+        {
+          "domain": "dewas5pzco3y6.cloudfront.net",
+          "uri": "https://dewas5pzco3y6.cloudfront.net/popular/business/3",
+          "extracted_on": "2022-08-08",
+          "last_seen_on": "2022-08-09",
+          "still_on_page": false
+        },
+        {
+          "domain": "blogtalkradio.com",
+          "uri": "https://blogtalkradio.com/business/archived/2",
+          "extracted_on": "2022-07-28",
+          "last_seen_on": "2022-08-04",
+          "still_on_page": false
+        },
+        {
+          "domain": "percolate.blogtalkradio.com",
+          "uri": "https://percolate.blogtalkradio.com/business/archived/2",
+          "extracted_on": "2022-07-31",
+          "last_seen_on": "2022-08-03",
+          "still_on_page": false
+        },
+        {
+          "domain": "origin.btrcdn.com",
+          "uri": "https://origin.btrcdn.com/business/archived/2",
+          "extracted_on": "2022-07-26",
+          "last_seen_on": "2022-07-30",
+          "still_on_page": false
+        },
+        {
+          "domain": "percolate.blogtalkradio.com",
+          "uri": "https://percolate.blogtalkradio.com/business/archived/3",
+          "extracted_on": "2022-07-22",
+          "last_seen_on": "2022-07-25",
+          "still_on_page": false
+        },
+        {
+          "domain": "origin.btrcdn.com",
+          "uri": "https://origin.btrcdn.com/popular/business/3",
+          "extracted_on": "2022-07-23",
+          "last_seen_on": "2022-07-24",
+          "still_on_page": false
+        },
+        {
+          "domain": "percolate.blogtalkradio.com",
+          "uri": "https://percolate.blogtalkradio.com/popular/business/3",
+          "extracted_on": "2022-07-23",
+          "last_seen_on": "2022-07-24",
+          "still_on_page": false
+        },
+        {
+          "domain": "blogtalkradio.com",
+          "uri": "https://blogtalkradio.com/business/archived/4",
+          "extracted_on": "2022-07-21",
+          "last_seen_on": "2022-07-21",
+          "still_on_page": false
+        },
+        {
+          "domain": "origin.btrcdn.com",
+          "uri": "https://origin.btrcdn.com/business/archived/3",
+          "extracted_on": "2022-07-21",
+          "last_seen_on": "2022-07-21",
+          "still_on_page": false
+        },
+        {
+          "domain": "origin.btrcdn.com",
+          "uri": "https://origin.btrcdn.com/business/archived/4",
+          "extracted_on": "2022-07-18",
+          "last_seen_on": "2022-07-19",
+          "still_on_page": false
+        },
+        {
+          "domain": "percolate.blogtalkradio.com",
+          "uri": "https://percolate.blogtalkradio.com/popular/business/4",
+          "extracted_on": "2022-07-18",
+          "last_seen_on": "2022-07-18",
+          "still_on_page": false
+        },
+        {
+          "domain": "origin.btrcdn.com",
+          "uri": "https://origin.btrcdn.com/popular/business/4",
+          "extracted_on": "2022-07-17",
+          "last_seen_on": "2022-07-17",
+          "still_on_page": false
+        },
+        {
+          "domain": "phenixsalonsuites.com",
+          "uri": "https://phenixsalonsuites.com/contact-page-2",
+          "extracted_on": "2019-07-31",
+          "last_seen_on": "2020-03-30",
+          "still_on_page": false
+        }
+      ],
+      "first_name": null,
+      "last_name": null,
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-14",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "astrid@phenixsalonsuites.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 84,
+      "sources": [
+        {
+          "domain": "tx.phenixsalonsuites.com",
+          "uri": "https://tx.phenixsalonsuites.com/blanco-market",
+          "extracted_on": "2026-10-27",
+          "last_seen_on": "2026-10-27",
+          "still_on_page": true
+        }
+      ],
+      "first_name": null,
+      "last_name": null,
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "ptpeck@phenixsalonsuites.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 78,
+      "sources": [
+        {
+          "domain": "phenixcentralflorida.com",
+          "uri": "https://phenixcentralflorida.com/contact",
+          "extracted_on": "2026-07-05",
+          "last_seen_on": "2026-10-24",
+          "still_on_page": true
+        }
+      ],
+      "first_name": null,
+      "last_name": null,
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    }
+  ]
+}

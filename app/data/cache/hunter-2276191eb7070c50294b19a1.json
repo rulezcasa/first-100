@@ -1,0 +1,10 @@
+{
+  "domain": "sunlightai.com",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": true,
+  "pattern": null,
+  "organization": "Sunlight",
+  "linked_domains": [],
+  "emails": []
+}

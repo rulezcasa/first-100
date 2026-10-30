@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", "Geist", ui-sans-serif, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+
+  /* cool slate */
+  --color-paper: #f3f4f6;
+  --color-surface: #ffffff;
+  --color-sunken: #e9ebef;
+  --color-line: #e0e3e8;
+  --color-line-strong: #c7ccd5;
+  --color-ink: #0c0f14;
+  --color-ink-2: #4a5160;
+  --color-ink-3: #868e9c;
+
+  /* one accent: electric lime, always with dark text on top */
+  --color-accent: #c6f432;
+  --color-accent-soft: #eefbc9;
+  --color-accent-ink: #476300;
+  --color-on-accent: #0c0f14;
+
+  /* meaning */
+  --color-good: #0e7c66;
+  --color-good-soft: #d5f2ea;
+  --color-warn: #a16207;
+  --color-warn-soft: #fbefcf;
+  --color-bad: #b42318;
+  --color-bad-soft: #fbe1de;
+  --color-info: #2f5bd3;
+  --color-info-soft: #e1e8fb;
+
+  /* agents */
+  --color-agent-team: #4a5160;
+  --color-agent-scout: #2f5bd3;
+  --color-agent-researcher: #7c3aed;
+  --color-agent-writer: #e8590c;
+  --color-agent-learner: #0e7c66;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+}
+
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line-strong) transparent;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+.live-dot {
+  animation: pulse-dot 1.6s ease-in-out infinite;
+}
+
+@keyframes flash {
+  from { background: var(--color-accent-soft); }
+  to { background: transparent; }
+}
+.flash {
+  animation: flash 1.4s ease-out;
+}

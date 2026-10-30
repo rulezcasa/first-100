@@ -1,0 +1,8 @@
+fastapi[standard]
+pydantic
+python-dotenv
+tavily-python
+neo4j
+httpx
+sse-starlette
+band-sdk==6.0.1

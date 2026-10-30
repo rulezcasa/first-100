@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+.venv/
+*.db
+
+# Node
+node_modules/
+webapp/dist/
+
+# Secrets
+.env
+webapp/.env
+app/band/agent_config.yaml
+*.tsbuildinfo

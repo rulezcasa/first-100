@@ -1,0 +1,211 @@
+{
+  "domain": "1851franchise.com",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": false,
+  "pattern": "{first}",
+  "organization": "1851 Franchise",
+  "linked_domains": [],
+  "emails": [
+    {
+      "value": "luca@1851franchise.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 98,
+      "sources": [
+        {
+          "domain": "1851franchise.com",
+          "uri": "https://1851franchise.com/jollibee/franchisor-stories",
+          "extracted_on": "2026-10-22",
+          "last_seen_on": "2026-10-22",
+          "still_on_page": true
+        },
+        {
+          "domain": "1851franchise.com",
+          "uri": "https://1851franchise.com/dillas-quesadillas/franchisee-stories",
+          "extracted_on": "2026-10-22",
+          "last_seen_on": "2026-10-22",
+          "still_on_page": true
+        },
+        {
+          "domain": "1851franchise.com",
+          "uri": "https://1851franchise.com/preservan/franchisee-stories",
+          "extracted_on": "2026-10-22",
+          "last_seen_on": "2026-10-22",
+          "still_on_page": true
+        },
+        {
+          "domain": "1851franchise.com",
+          "uri": "https://1851franchise.com/homecleanheroes/growing-a-franchise",
+          "extracted_on": "2026-10-22",
+          "last_seen_on": "2026-10-22",
+          "still_on_page": true
+        },
+        {
+          "domain": "1851franchise.com",
+          "uri": "https://1851franchise.com/jollibee/franchisor-executive-qa-2729650",
+          "extracted_on": "2026-10-22",
+          "last_seen_on": "2026-10-22",
+          "still_on_page": true
+        },
+        {
+          "domain": "hardskill.exchange",
+          "uri": "https://hardskill.exchange/gtmmag/gtm-metrics-and-mindsets/flying-high-in-the-face-of-failure-the-right-way-to-innovate",
+          "extracted_on": "2026-04-30",
+          "last_seen_on": "2026-04-30",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Luca",
+      "last_name": "Piacentini",
+      "position": "Managing Editor",
+      "position_raw": "Managing Editor",
+      "seniority": null,
+      "department": "communication",
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-09",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "nick@1851franchise.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 99,
+      "sources": [
+        {
+          "domain": "prweb.com",
+          "uri": "https://prweb.com/releases/leading-in-home-care-franchise-looks-to-expand-in-bakersfield-california-302102220.html",
+          "extracted_on": "2026-10-29",
+          "last_seen_on": "2026-10-29",
+          "still_on_page": true
+        },
+        {
+          "domain": "prweb.com",
+          "uri": "https://prweb.com/releases/leading-in-home-care-franchise-looks-to-expand-in-rochester-minnesota-302296244.html",
+          "extracted_on": "2026-09-24",
+          "last_seen_on": "2026-09-24",
+          "still_on_page": true
+        },
+        {
+          "domain": "prweb.com",
+          "uri": "https://prweb.com/releases/griswold-announces-exclusive-partnership-with-patriot-angels-to-enhance-support-for-veterans-302307228.html",
+          "extracted_on": "2026-09-19",
+          "last_seen_on": "2026-09-19",
+          "still_on_page": true
+        },
+        {
+          "domain": "1851franchise.com",
+          "uri": "https://1851franchise.com/postnet-ceo-steve-greenbaum-gets-inside-look-at-franchise-model-from-eyes-of-employees-franchisees-on-cbs-hit-series-undercover-boss-271",
+          "extracted_on": "2026-10-22",
+          "last_seen_on": "2026-10-22",
+          "still_on_page": true
+        },
+        {
+          "domain": "unikwaxfranchise.com",
+          "uri": "https://unikwaxfranchise.com/heather-harris-brings-strategic-focus-and-fresh-energy-to-uni-k-wax-as-ceo",
+          "extracted_on": "2026-04-07",
+          "last_seen_on": "2026-04-07",
+          "still_on_page": true
+        },
+        {
+          "domain": "restaurantmagazine.com",
+          "uri": "https://restaurantmagazine.com/want-to-catch-a-big-fish-multi-unit-franchisee-1851-provides-5-insights-to-help-you-better-strategize",
+          "extracted_on": "2018-07-07",
+          "last_seen_on": "2026-04-18",
+          "still_on_page": false
+        },
+        {
+          "domain": "newdesignremodeling.com",
+          "uri": "https://newdesignremodeling.com/the-leading-franchise-in-home-care-comit-at-home-should-expand-in-pittsburgh",
+          "extracted_on": "2025-04-05",
+          "last_seen_on": "2025-10-06",
+          "still_on_page": false
+        },
+        {
+          "domain": "digitalwellness.directory",
+          "uri": "https://digitalwellness.directory/right-at-home-expanding-in-home-care-services-in-state-college",
+          "extracted_on": "2025-06-01",
+          "last_seen_on": "2025-06-01",
+          "still_on_page": false
+        },
+        {
+          "domain": "digitalwellness.directory",
+          "uri": "https://digitalwellness.directory/right-at-home-expanding-in-home-care-services-in-youngstown-warren",
+          "extracted_on": "2025-06-01",
+          "last_seen_on": "2025-06-01",
+          "still_on_page": false
+        },
+        {
+          "domain": "digitalwellness.directory",
+          "uri": "https://digitalwellness.directory/seniors-helping-seniors-in-home-care-services-expands-in-cottonwood-az",
+          "extracted_on": "2025-06-01",
+          "last_seen_on": "2025-06-01",
+          "still_on_page": false
+        },
+        {
+          "domain": "digitalwellness.directory",
+          "uri": "https://digitalwellness.directory/seniors-helping-seniors-in-home-care-services-expands-in-san-antonio-texas",
+          "extracted_on": "2025-06-01",
+          "last_seen_on": "2025-06-01",
+          "still_on_page": false
+        },
+        {
+          "domain": "digitalwellness.directory",
+          "uri": "https://digitalwellness.directory/seniors-helping-seniors-in-home-care-services-expands-to-east-bay-california",
+          "extracted_on": "2025-06-01",
+          "last_seen_on": "2025-06-01",
+          "still_on_page": false
+        },
+        {
+          "domain": "immediate-release.com",
+          "uri": "https://immediate-release.com",
+          "extracted_on": "2024-07-27",
+          "last_seen_on": "2024-07-29",
+          "still_on_page": false
+        },
+        {
+          "domain": "immediate-release.com",
+          "uri": "https://immediate-release.com/author/imreal/page/2",
+          "extracted_on": "2024-07-29",
+          "last_seen_on": "2024-07-29",
+          "still_on_page": false
+        },
+        {
+          "domain": "immediate-release.com",
+          "uri": "https://immediate-release.com/page/2",
+          "extracted_on": "2024-07-24",
+          "last_seen_on": "2024-07-24",
+          "still_on_page": false
+        },
+        {
+          "domain": "1851franchise.1851franchise.com",
+          "uri": "https://1851franchise.1851franchise.com/want-to-catch-a-big-fish-multi-unit-franchisee-1851-provides-5-insights-to-help-you-better-strategize-2706156",
+          "extracted_on": "2019-11-29",
+          "last_seen_on": "2019-11-29",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Nick",
+      "last_name": "Powills",
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-03",
+        "status": "valid"
+      }
+    }
+  ]
+}

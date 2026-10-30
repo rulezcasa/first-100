@@ -1,0 +1,10 @@
+{
+  "domain": "therenaissancedayspa.com",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": false,
+  "pattern": "{first}",
+  "organization": "The Renaissance Day Spa",
+  "linked_domains": [],
+  "emails": []
+}

@@ -1,0 +1,409 @@
+{
+  "domain": "canyonranch.com",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": false,
+  "pattern": "{f}{last}",
+  "organization": "Canyon Ranch",
+  "linked_domains": [],
+  "emails": [
+    {
+      "value": "clopez@canyonranch.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 98,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20christina%20lopez%20canyonranch",
+          "extracted_on": "2025-05-09",
+          "last_seen_on": "2025-05-09",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Christina",
+      "last_name": "Lopez",
+      "position": "Director of Sports and Recreation",
+      "position_raw": "Director of Fitness and Outdoor Sports",
+      "seniority": "executive",
+      "department": "management",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/christina-corral-lopez-b0499410",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-27",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "jeastburn@canyonranch.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 98,
+      "sources": [
+        {
+          "domain": "magazine.compareretreats.com",
+          "uri": "https://magazine.compareretreats.com/author/infocompareretreats-com/page/55",
+          "extracted_on": "2026-06-23",
+          "last_seen_on": "2026-06-23",
+          "still_on_page": true
+        },
+        {
+          "domain": "canyonranch.com",
+          "uri": "https://canyonranch.com/well-stated/post/what-is-an-executive-physical-my-experience-at-canyon-ranch",
+          "extracted_on": "2024-09-13",
+          "last_seen_on": "2024-09-13",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Jim",
+      "last_name": "Eastburn",
+      "position": "Director of Transformation",
+      "position_raw": "Corporate Director of Transformational Experiences",
+      "seniority": "executive",
+      "department": "management",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/jim-eastburn-a5b33915a",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-27",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "mbodnar@canyonranch.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 98,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20mark%20bodnar%20canyonranch",
+          "extracted_on": "2025-01-10",
+          "last_seen_on": "2026-09-04",
+          "still_on_page": false
+        },
+        {
+          "domain": "lvspas.com",
+          "uri": "https://lvspas.com/spaconnections/name/canyon-ranch-spa-club",
+          "extracted_on": "2023-02-03",
+          "last_seen_on": "2025-10-09",
+          "still_on_page": false
+        },
+        {
+          "domain": "lvspas.com",
+          "uri": "https://lvspas.com/spa-members",
+          "extracted_on": "2021-09-07",
+          "last_seen_on": "2025-10-06",
+          "still_on_page": false
+        },
+        {
+          "domain": "lvspas.com",
+          "uri": "https://lvspas.com/spaconnections",
+          "extracted_on": "2023-02-03",
+          "last_seen_on": "2025-10-06",
+          "still_on_page": false
+        },
+        {
+          "domain": "lvspas.com",
+          "uri": "https://lvspas.com/members/spa-members",
+          "extracted_on": "2021-09-06",
+          "last_seen_on": "2025-10-02",
+          "still_on_page": false
+        },
+        {
+          "domain": "lvspas.com",
+          "uri": "https://lvspas.com/members/spa-members/name/canyon-ranch-spa-club",
+          "extracted_on": "2021-10-09",
+          "last_seen_on": "2025-09-30",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Mark",
+      "last_name": "Bodnar",
+      "position": "Executive Director",
+      "position_raw": "Executive Director",
+      "seniority": "executive",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/mark-bodnar-811967195",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-04",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "jwagner@canyonranch.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 94,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20jennifer%20wagner%20canyonranch",
+          "extracted_on": "2026-10-03",
+          "last_seen_on": "2026-10-03",
+          "still_on_page": true
+        },
+        {
+          "domain": "canyonranch.com",
+          "uri": "https://kbpp.org/33877.html",
+          "extracted_on": "2026-06-04",
+          "last_seen_on": "2026-06-04",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Jennifer",
+      "last_name": "Wagner",
+      "position": "Chief Health and Performance Officer",
+      "position_raw": "Chief Health and Performance Officer",
+      "seniority": "executive",
+      "department": "health",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/jennifer-wagner-65609a210",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-30",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "jphinney@canyonranch.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 94,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20jason%20phinney%20canyonranch",
+          "extracted_on": "2025-01-11",
+          "last_seen_on": "2026-09-02",
+          "still_on_page": true
+        },
+        {
+          "domain": "canyonranch.com",
+          "uri": "https://canyonranch.com/integrative-wellness-approach/experts",
+          "extracted_on": "2024-09-12",
+          "last_seen_on": "2024-09-12",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Jason",
+      "last_name": "Phinney",
+      "position": "Chief Financial Officer",
+      "position_raw": "Chief Financial Officer",
+      "seniority": "executive",
+      "department": "finance & accounting",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/jason-phinney-5a3866a5",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-29",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "djaramillo@canyonranch.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 93,
+      "sources": [
+        {
+          "domain": "tlcmassageschool.com",
+          "uri": "https://tlcmassageschool.com/career-services/massage-jobs/paid-jobs/canyon-ranch",
+          "extracted_on": "2026-08-29",
+          "last_seen_on": "2026-09-15",
+          "still_on_page": true
+        },
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20david%20jaramillo%20canyonranch",
+          "extracted_on": "2025-01-11",
+          "last_seen_on": "2026-09-04",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "David",
+      "last_name": "Jaramillo",
+      "position": "Director of Talent Acquisition",
+      "position_raw": "Director Talent Acquisition",
+      "seniority": "executive",
+      "department": "hr",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/davidjaramillo",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-27",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "msiemens@canyonranch.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 93,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20mike%20siemens%20canyonranch",
+          "extracted_on": "2025-01-10",
+          "last_seen_on": "2026-09-01",
+          "still_on_page": true
+        },
+        {
+          "domain": "canyonranch.com",
+          "uri": "https://canyonranch.com/live-longer-longevity-retreat",
+          "extracted_on": "2024-12-15",
+          "last_seen_on": "2024-12-15",
+          "still_on_page": true
+        },
+        {
+          "domain": "canyonranch.com",
+          "uri": "https://canyonranch.com/integrative-wellness-approach/experts",
+          "extracted_on": "2024-09-13",
+          "last_seen_on": "2024-09-13",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Mike",
+      "last_name": "Siemens",
+      "position": "Director of Analytics",
+      "position_raw": "Director of Performance Science",
+      "seniority": "executive",
+      "department": "research",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/mike-siemens-0a50ab58",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-27",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "dcraig@canyonranch.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 92,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20david%20craig%20canyonranch",
+          "extracted_on": "2025-01-11",
+          "last_seen_on": "2026-08-30",
+          "still_on_page": true
+        },
+        {
+          "domain": "canyonranch.com",
+          "uri": "https://canyonranch.com/well-stated/post/dream-street-foundation",
+          "extracted_on": "2024-09-13",
+          "last_seen_on": "2024-09-13",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "David",
+      "last_name": "Craig",
+      "position": "Managing Director",
+      "position_raw": "Managing Director",
+      "seniority": "executive",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/david-craig-9125456",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-26",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "aalvarez@canyonranch.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 92,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20arturo%20alvarez%20canyonranch",
+          "extracted_on": "2025-01-09",
+          "last_seen_on": "2026-09-06",
+          "still_on_page": true
+        },
+        {
+          "domain": "canyonranch.com",
+          "uri": "https://canyonranch.com/integrative-wellness-approach/experts",
+          "extracted_on": "2024-09-13",
+          "last_seen_on": "2024-09-13",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Arturo",
+      "last_name": "Alvarez",
+      "position": "Spa Director",
+      "position_raw": "Spa Director",
+      "seniority": "executive",
+      "department": "management",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/arturo-alvarez-8484ba4",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-04",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "ztaylor@canyonranch.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 92,
+      "sources": [
+        {
+          "domain": "canyonranch.com",
+          "uri": "https://canyonranch.com/integrative-wellness-approach/experts",
+          "extracted_on": "2024-09-13",
+          "last_seen_on": "2024-09-13",
+          "still_on_page": true
+        },
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20zilphia%20taylor%20canyonranch",
+          "extracted_on": "2025-01-09",
+          "last_seen_on": "2026-08-23",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Zilphia",
+      "last_name": "Taylor",
+      "position": "Chief Human Resources Officer",
+      "position_raw": "Chief Human Resources Officer",
+      "seniority": "executive",
+      "department": "hr",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/zilphia-taylor-4249643",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-21",
+        "status": "valid"
+      }
+    }
+  ]
+}

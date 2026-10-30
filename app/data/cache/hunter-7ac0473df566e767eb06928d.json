@@ -1,0 +1,563 @@
+{
+  "domain": "pigtailsandcrewcuts.com",
+  "disposable": false,
+  "webmail": false,
+  "accept_all": false,
+  "pattern": "{f}{last}",
+  "organization": "Pigtails & Crewcuts",
+  "linked_domains": [],
+  "emails": [
+    {
+      "value": "aconner@pigtailsandcrewcuts.com",
+      "type": "personal",
+      "source_type": "generated",
+      "provenance": "inferred",
+      "confidence": 99,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20andrew%20conner%20pigtailsandcrewcuts",
+          "extracted_on": "2025-08-21",
+          "last_seen_on": "2025-08-21",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Andrew",
+      "last_name": "Conner",
+      "position": "Salon Owner",
+      "position_raw": "Salon Owner",
+      "seniority": "executive",
+      "department": "executive",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/andrew-conner-995a94294",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-01",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "tunderwood@pigtailsandcrewcuts.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 99,
+      "sources": [
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/top-3-kids-hair-disasters",
+          "extracted_on": "2023-02-23",
+          "last_seen_on": "2026-10-15",
+          "still_on_page": true
+        },
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20theresa%20underwood%20pigtailsandcrewcuts",
+          "extracted_on": "2025-01-09",
+          "last_seen_on": "2026-08-29",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/news/page/8",
+          "extracted_on": "2023-02-23",
+          "last_seen_on": "2023-08-23",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Theresa",
+      "last_name": "Underwood",
+      "position": "Vice President of Franchise Support",
+      "position_raw": "VP of Franchise Support",
+      "seniority": "executive",
+      "department": "support",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/theresa-underwood-895415265",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-26",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "tvona@pigtailsandcrewcuts.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 92,
+      "sources": [
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/atlanta-smyrna-vinings/kids-haircuts/pigtails-crewcuts-franchise-acquired-a-second-salon-7-miles-from-their-location-in-buckhead-ga",
+          "extracted_on": "2026-10-30",
+          "last_seen_on": "2026-10-30",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/contact-us",
+          "extracted_on": "2026-09-18",
+          "last_seen_on": "2026-10-30",
+          "still_on_page": true
+        },
+        {
+          "domain": "ubcnews.world",
+          "uri": "https://ubcnews.world/kids-hair-salon-near-you-shares-valentines-day-best-girls-and-boys-haircuts",
+          "extracted_on": "2026-10-29",
+          "last_seen_on": "2026-10-29",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/job/hair-stylist-ga-roswell",
+          "extracted_on": "2026-09-29",
+          "last_seen_on": "2026-09-29",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/job/weekend-hair-stylist-az-phoenix-ahwatukee",
+          "extracted_on": "2026-09-28",
+          "last_seen_on": "2026-09-28",
+          "still_on_page": true
+        },
+        {
+          "domain": "prsync.com",
+          "uri": "https://prsync.com/pigtails--crewcuts-haircuts-for-kids---greenville-/haircuts-for-kids-salon-publishes-back-to-school-guide-for-boys-and-girls-4224006",
+          "extracted_on": "2024-12-09",
+          "last_seen_on": "2026-09-24",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/job/hair-stylist-va-newport-news",
+          "extracted_on": "2026-08-27",
+          "last_seen_on": "2026-08-27",
+          "still_on_page": true
+        },
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20theresa%20vona%20pigtailsandcrewcuts",
+          "extracted_on": "2025-01-09",
+          "last_seen_on": "2026-08-25",
+          "still_on_page": true
+        },
+        {
+          "domain": "ubcnews.world",
+          "uri": "https://ubcnews.world/category/news/lifestyle/page/3",
+          "extracted_on": "2025-03-01",
+          "last_seen_on": "2025-03-05",
+          "still_on_page": false
+        },
+        {
+          "domain": "cercademiusa.com",
+          "uri": "https://cercademiusa.com/sitios/pigtails-crewcuts-haircuts-for-kids-phoenix-ahwatukee-az",
+          "extracted_on": "2023-07-14",
+          "last_seen_on": "2023-07-14",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Theresa",
+      "last_name": "Vona",
+      "position": "Vice President of Franchise Operations",
+      "position_raw": "Vice President of Franchise Support (Operations, Marketing & Training)",
+      "seniority": "executive",
+      "department": "operations",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/theresa-underwood305",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-28",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "brigel@pigtailsandcrewcuts.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 76,
+      "sources": [
+        {
+          "domain": "linkedin.com",
+          "uri": "https://www.google.com/search?q=site:linkedin.com%20ben%20rigel%20pigtailsandcrewcuts",
+          "extracted_on": "2025-01-11",
+          "last_seen_on": "2026-08-29",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/marketinghub/events/month/2021-09",
+          "extracted_on": "2024-10-15",
+          "last_seen_on": "2025-04-20",
+          "still_on_page": false
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/marketinghub/event/franpos-marketing-webinar",
+          "extracted_on": "2023-11-27",
+          "last_seen_on": "2023-11-27",
+          "still_on_page": false
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/marketinghub/event/franpos-roundtable",
+          "extracted_on": "2023-11-27",
+          "last_seen_on": "2023-11-27",
+          "still_on_page": false
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/marketinghub/event/shear-excellence-webinar",
+          "extracted_on": "2023-11-27",
+          "last_seen_on": "2023-11-27",
+          "still_on_page": false
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/marketinghub/marketing-resources/vendor-pages/franpos",
+          "extracted_on": "2023-11-26",
+          "last_seen_on": "2023-11-26",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Ben",
+      "last_name": "Rigel",
+      "position": "Real Estate Director",
+      "position_raw": "Director of Real Estate",
+      "seniority": "executive",
+      "department": "sales",
+      "decision_maker": true,
+      "linkedin": "https://www.linkedin.com/in/benrigel",
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-26",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "charlotteblakeney@pigtailsandcrewcuts.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 99,
+      "sources": [
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/job/hair-stylist-nc-charlotte-blakeney",
+          "extracted_on": "2023-02-23",
+          "last_seen_on": "2026-10-17",
+          "still_on_page": true
+        },
+        {
+          "domain": "salonhires.com",
+          "uri": "https://salonhires.com/job/hair-stylist-charlotte-blakeney-nc-pigtails-crewcuts-charlotte-nc-99342581-822d-4f60-bfe6-a0ee59ec6a2a",
+          "extracted_on": "2026-09-23",
+          "last_seen_on": "2026-09-23",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/job/hair-stylist-nc-charlotte-cotswold",
+          "extracted_on": "2023-02-23",
+          "last_seen_on": "2026-08-27",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Charlotte",
+      "last_name": "Blakeney",
+      "position": "Stylist",
+      "position_raw": "Stylist",
+      "seniority": null,
+      "department": "design",
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "roswell@pigtailsandcrewcuts.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 99,
+      "sources": [
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/location/roswell",
+          "extracted_on": "2026-08-08",
+          "last_seen_on": "2026-10-28",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/job/hair-stylist-ga-roswell",
+          "extracted_on": "2023-02-23",
+          "last_seen_on": "2026-09-29",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Milton",
+      "last_name": "Roswell",
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "woodstock@pigtailsandcrewcuts.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 99,
+      "sources": [
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/location/woodstock",
+          "extracted_on": "2026-08-08",
+          "last_seen_on": "2026-10-28",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/job/hair-stylist-ga-woodstock",
+          "extracted_on": "2023-02-23",
+          "last_seen_on": "2026-10-20",
+          "still_on_page": true
+        }
+      ],
+      "first_name": "Holly",
+      "last_name": "Woodstock",
+      "position": "Manager",
+      "position_raw": "Manager",
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": "2026-10-21",
+        "status": "valid"
+      }
+    },
+    {
+      "value": "clermont@pigtailsandcrewcuts.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 99,
+      "sources": [
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/location/clermont",
+          "extracted_on": "2026-08-08",
+          "last_seen_on": "2026-09-21",
+          "still_on_page": true
+        },
+        {
+          "domain": "clawlicious.com",
+          "uri": "https://clawlicious.com/pages/stockists",
+          "extracted_on": "2022-12-04",
+          "last_seen_on": "2026-08-16",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/job/hair-stylist-fl-clermont",
+          "extracted_on": "2023-02-23",
+          "last_seen_on": "2026-01-25",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Crewcuts",
+      "last_name": "Clermont",
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "conway@pigtailsandcrewcuts.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 99,
+      "sources": [
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/job/weekend-hair-stylist-ar-conway",
+          "extracted_on": "2024-07-23",
+          "last_seen_on": "2026-10-18",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/job/hair-stylist-ar-conway",
+          "extracted_on": "2022-08-23",
+          "last_seen_on": "2026-10-15",
+          "still_on_page": true
+        },
+        {
+          "domain": "fototapety-aw.pl",
+          "uri": "https://fototapety-aw.pl/pigtails-and-crewcuts-brookfield",
+          "extracted_on": "2024-04-07",
+          "last_seen_on": "2024-04-07",
+          "still_on_page": false
+        },
+        {
+          "domain": "agofiloe.eu",
+          "uri": "https://agofiloe.eu/blog/pigtails-and-crewcuts-brookfield.html",
+          "extracted_on": "2024-02-14",
+          "last_seen_on": "2024-02-14",
+          "still_on_page": false
+        },
+        {
+          "domain": "derwegistmeinziel.de",
+          "uri": "https://derwegistmeinziel.de/blog/pigtails-and-crewcuts-brookfield.html",
+          "extracted_on": "2024-01-12",
+          "last_seen_on": "2024-01-12",
+          "still_on_page": false
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/marketinghub/social-media-resources/youtube",
+          "extracted_on": "2023-11-26",
+          "last_seen_on": "2023-11-26",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Stylist",
+      "last_name": "Conway",
+      "position": "Manager",
+      "position_raw": "Manager",
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": null,
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    },
+    {
+      "value": "smyrna@pigtailsandcrewcuts.com",
+      "type": "personal",
+      "source_type": "found",
+      "provenance": "found",
+      "confidence": 99,
+      "sources": [
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/atlanta-smyrna-vinings/category/kids-haircuts",
+          "extracted_on": "2026-08-08",
+          "last_seen_on": "2026-10-28",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/atlanta-smyrna-vinings/kids-haircuts/2",
+          "extracted_on": "2026-08-08",
+          "last_seen_on": "2026-10-28",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/atlanta-smyrna-vinings/tag/hairstyle/page/2",
+          "extracted_on": "2026-08-08",
+          "last_seen_on": "2026-10-27",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/atlanta-smyrna-vinings/ear-piercing",
+          "extracted_on": "2026-09-18",
+          "last_seen_on": "2026-09-18",
+          "still_on_page": true
+        },
+        {
+          "domain": "pigtailsandcrewcuts.com",
+          "uri": "https://pigtailsandcrewcuts.com/atlanta-smyrna-vinings/tag/smyrna/page/2",
+          "extracted_on": "2026-09-18",
+          "last_seen_on": "2026-09-18",
+          "still_on_page": true
+        },
+        {
+          "domain": "clawlicious.com",
+          "uri": "https://clawlicious.com/pages/stockists",
+          "extracted_on": "2022-09-04",
+          "last_seen_on": "2026-08-16",
+          "still_on_page": true
+        },
+        {
+          "domain": "pictame.com",
+          "uri": "https://pictame.com/tag/nowhiring",
+          "extracted_on": "2019-03-04",
+          "last_seen_on": "2019-03-04",
+          "still_on_page": true
+        },
+        {
+          "domain": "atlantamom.com",
+          "uri": "https://atlantamom.com/family-lifestyle/learn-about-pigtails-crewcuts-in-atlanta",
+          "extracted_on": "2024-05-25",
+          "last_seen_on": "2025-02-25",
+          "still_on_page": false
+        },
+        {
+          "domain": "ezlocal.com",
+          "uri": "https://ezlocal.com/ga/atlanta/hair-salon/0910129799",
+          "extracted_on": "2019-05-12",
+          "last_seen_on": "2025-02-14",
+          "still_on_page": false
+        },
+        {
+          "domain": "wigsforkids.org",
+          "uri": "https://wigsforkids.org/locations/pigtails-crewcuts-smyrna",
+          "extracted_on": "2023-07-30",
+          "last_seen_on": "2023-12-10",
+          "still_on_page": false
+        }
+      ],
+      "first_name": "Crewcuts",
+      "last_name": "Smyrna",
+      "position": null,
+      "position_raw": null,
+      "seniority": null,
+      "department": null,
+      "decision_maker": false,
+      "linkedin": null,
+      "twitter": null,
+      "phone_number": "+1 678 293 6020",
+      "verification": {
+        "date": null,
+        "status": null
+      }
+    }
+  ]
+}
