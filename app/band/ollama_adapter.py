@@ -36,7 +36,7 @@ from band.runtime.custom_tools import (
 )
 from band.runtime.prompts import render_system_prompt
 
-from app import config
+from app import config, usage
 
 log = logging.getLogger(__name__)
 
@@ -246,7 +246,9 @@ class OllamaAdapter(SimpleAdapter[Messages]):
                 "options": {"temperature": 0.3, "stop": ["<|im_end|>", "<|im_start|>"]},
             })
             response.raise_for_status()
-            return parse_reply(response.json()["response"])
+            body = response.json()
+            usage.track_llm(body, agent=self.agent_name)
+            return parse_reply(body["response"])
 
     async def _run_tool(self, function: dict[str, Any], call_id: str, tools: AgentToolsProtocol) -> dict[str, Any]:
         name, args = function.get("name", ""), function.get("arguments") or {}

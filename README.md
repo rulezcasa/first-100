@@ -61,7 +61,7 @@ First100 addresses this with three differentiators:
 
 ```
 ┌──────────────────────── webapp/ (Vite + React + TS + Tailwind) ───────────────────────┐
-│ Setup · Who · Leads (drawer + force graph) · Approve · Pipeline · Insights            │
+│ Setup · Who · Leads (drawer + force graph) · Approve · Pipeline · Dashboard           │
 │ "Do this next" banner · Agent activity panel (SSE)                                     │
 └───────────────────────────────┬───────────────────────────────────────────────────────┘
                                 │ REST + SSE  (:5173 → :8000)
@@ -156,7 +156,7 @@ app/
   connectors/           cache, ollama, tavily, hunter
   data/cache/           replayable API responses
 webapp/
-  src/pages/            Setup, Who, Leads, Approve, Pipeline, Insights
+  src/pages/            Setup, Who, Leads, Approve, Pipeline, Dashboard
 ```
 
 See [context.md](context.md) for the product spec and [PLAN.md](PLAN.md) for the build plan.

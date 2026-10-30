@@ -12,8 +12,9 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app import config, db
-from app.api import activity, drafts, leads, routes, who
+from app.api import activity, dashboard, drafts, leads, routes, who
 from app.band import bridge, room
+from app.connectors import flexprice
 
 log = logging.getLogger(__name__)
 
@@ -35,6 +36,10 @@ async def lifespan(_: FastAPI):
         tasks.append(asyncio.create_task(room.watch(), name="Band room watcher"))
     else:
         log.warning("BAND_API_KEY or BAND_ROOM_ID not set, so the activity panel is offline")
+    if flexprice.enabled():
+        tasks.append(asyncio.create_task(flexprice.run(), name="Flexprice sync"))
+    else:
+        log.warning("FLEXPRICE_API_KEY not set, so costs stay local")
     for t in tasks:
         t.add_done_callback(_report_crash)
     yield
@@ -57,6 +62,7 @@ app.include_router(who.router)
 app.include_router(activity.router)
 app.include_router(leads.router)
 app.include_router(drafts.router)
+app.include_router(dashboard.router)
 
 
 @app.get("/health")

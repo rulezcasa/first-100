@@ -88,3 +88,12 @@ CREATE TABLE IF NOT EXISTS usage (
     synced     INTEGER NOT NULL DEFAULT 0,
     created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE IF NOT EXISTS deals (                -- a lead the founder is talking to about buying
+    lead_id    INTEGER PRIMARY KEY REFERENCES leads(id),
+    status     TEXT NOT NULL CHECK (status IN ('potential', 'confirmed', 'lost')),
+    value_usd  REAL NOT NULL DEFAULT 0,          -- expected for potential, agreed for confirmed
+    note       TEXT,
+    synced_at  TEXT,                             -- last sent to Flexprice (confirmed deals only)
+    updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

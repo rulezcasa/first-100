@@ -8,7 +8,7 @@ from typing import Any, TypeVar
 import httpx
 from pydantic import BaseModel, ValidationError
 
-from app import config
+from app import config, usage
 from app.connectors.cache import cached
 
 T = TypeVar("T", bound=BaseModel)
@@ -68,7 +68,9 @@ async def generate(
                 "options": {"temperature": 0.3, **({"seed": variant} if variant else {})},
             })
             response.raise_for_status()
-            return response.json()["message"]["content"]
+            body = response.json()
+            usage.track_llm(body, agent="tool")
+            return body["message"]["content"]
 
     for attempt in range(2):
         text = await cached("ollama", {**request, "attempt": attempt}, fetch)
